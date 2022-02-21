@@ -1,0 +1,57 @@
+{
+    "strategy": "charm",
+    "symbol_pool": [
+        "positioning",
+        "!biotech",
+        "!earnings",
+        "!materials",
+        "!energy"
+    ],
+    "trade_params": {
+        "positioningCutoff": 0.00075,
+        "col_start": 0,
+        "col_end": 4
+    },
+    "position_description": {
+        "betsize": {
+            "per_trade": 0.015,
+            "max": 0.15
+        },
+        "assetType": "EQUITY",
+        "positionType": "single",
+        "tradeType": "BUY"
+    },
+    "open_position": {
+        "days": ["*"],
+        "times": ["9:30"],
+        "when": {
+            "and": [[">", "@spy", ["-", "@spy_20_day_mean", "@spy_sigma"]]]
+        },
+        "symbol_filter": [
+            ["filter_csv", "finviz_earnings", "Volume", "@symbols", ">", 2e6],
+            ["filter_csv", "IV", "Imp Vol", "@symbols", ">", 60],
+            ["filter_greeks", "gamma", "@symbols", "0.7", "1.5", "<", 0.01],
+            [
+                "filter_charm",
+                "today",
+                "@symbols",
+                {
+                    "lambda": [
+                        [">", "@symbol_price", ["*", 0.88, "@charm_0"]],
+                        ["<", "@symbol_price", "@charm_0"]
+                    ]
+                }
+            ],
+            [
+                "filter_charm",
+                "yesterday",
+                "@symbols",
+                { "lambda": [["<", "@symbol_price", "@charm_0"]] }
+            ]
+        ]
+    },
+    "close_position": {
+        "days": ["*"],
+        "times": ["15:59"]
+    }
+}

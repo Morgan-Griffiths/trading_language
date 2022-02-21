@@ -1,0 +1,25 @@
+30 6 * * 1-5 cd /Users/morgan/Code/TDameritrade; ~/anaconda3/envs/market/bin/python3.9 trade_interpreter.py -f /Users/morgan/Code/TDameritrade/trade/position_descriptions/spy_hedge.json -t open
+30 6 * * 1-5 cd /Users/morgan/Code/TDameritrade; ~/anaconda3/envs/market/bin/python3.9 trade_interpreter.py -f /Users/morgan/Code/TDameritrade/trade/position_descriptions/spy_hedge.json -t close
+30 6 11-12 11 * cd /Users/morgan/Code/TDameritrade; ~/anaconda3/envs/market/bin/python3.9 trade_interpreter.py -f /Users/morgan/Code/TDameritrade/trade/position_descriptions/opex.json -t open
+30 6 15-16 11 * cd /Users/morgan/Code/TDameritrade; ~/anaconda3/envs/market/bin/python3.9 trade_interpreter.py -f /Users/morgan/Code/TDameritrade/trade/position_descriptions/opex.json -t open
+59 12 11-12 11 * cd /Users/morgan/Code/TDameritrade; ~/anaconda3/envs/market/bin/python3.9 trade_interpreter.py -f /Users/morgan/Code/TDameritrade/trade/position_descriptions/opex.json -t close
+59 12 15-16 11 * cd /Users/morgan/Code/TDameritrade; ~/anaconda3/envs/market/bin/python3.9 trade_interpreter.py -f /Users/morgan/Code/TDameritrade/trade/position_descriptions/opex.json -t close
+59 12 15 11 * cd /Users/morgan/Code/TDameritrade; ~/anaconda3/envs/market/bin/python3.9 trade_interpreter.py -f /Users/morgan/Code/TDameritrade/trade/position_descriptions/spy_close.json -t close
+30 6 18-22 10 * cd /Users/morgan/Code/TDameritrade; ~/anaconda3/envs/market/bin/python3.9 trade_interpreter.py -f /Users/morgan/Code/TDameritrade/trade/position_descriptions/spy.json -t open
+30 6 25-29 10 * cd /Users/morgan/Code/TDameritrade; ~/anaconda3/envs/market/bin/python3.9 trade_interpreter.py -f /Users/morgan/Code/TDameritrade/trade/position_descriptions/spy.json -t open
+30 6 1-5 11 * cd /Users/morgan/Code/TDameritrade; ~/anaconda3/envs/market/bin/python3.9 trade_interpreter.py -f /Users/morgan/Code/TDameritrade/trade/position_descriptions/spy.json -t open
+30 6 8-12 11 * cd /Users/morgan/Code/TDameritrade; ~/anaconda3/envs/market/bin/python3.9 trade_interpreter.py -f /Users/morgan/Code/TDameritrade/trade/position_descriptions/spy.json -t open
+30 6 15-16 11 * cd /Users/morgan/Code/TDameritrade; ~/anaconda3/envs/market/bin/python3.9 trade_interpreter.py -f /Users/morgan/Code/TDameritrade/trade/position_descriptions/spy.json -t open
+30 6 19-22 10 * cd /Users/morgan/Code/TDameritrade; ~/anaconda3/envs/market/bin/python3.9 trade_interpreter.py -f /Users/morgan/Code/TDameritrade/trade/position_descriptions/spy.json -t close
+30 6 25-29 10 * cd /Users/morgan/Code/TDameritrade; ~/anaconda3/envs/market/bin/python3.9 trade_interpreter.py -f /Users/morgan/Code/TDameritrade/trade/position_descriptions/spy.json -t close
+30 6 1-5 11 * cd /Users/morgan/Code/TDameritrade; ~/anaconda3/envs/market/bin/python3.9 trade_interpreter.py -f /Users/morgan/Code/TDameritrade/trade/position_descriptions/spy.json -t close
+30 6 8-12 11 * cd /Users/morgan/Code/TDameritrade; ~/anaconda3/envs/market/bin/python3.9 trade_interpreter.py -f /Users/morgan/Code/TDameritrade/trade/position_descriptions/spy.json -t close
+30 6 15-16 11 * cd /Users/morgan/Code/TDameritrade; ~/anaconda3/envs/market/bin/python3.9 trade_interpreter.py -f /Users/morgan/Code/TDameritrade/trade/position_descriptions/spy.json -t close
+0 3 * * 1-5 cd /Users/morgan/Code/TDameritrade; ~/anaconda3/envs/market/bin/python3.9 /Users/morgan/Code/TDameritrade/main.py -f data
+0 5 * * 1-5 cd /Users/morgan/Code/TDameritrade; ~/anaconda3/envs/market/bin/python3.9 /Users/morgan/Code/TDameritrade/main.py -f update_fundamentals
+0 13 * * 1-5 cd /Users/morgan/Code/TDameritrade; ~/anaconda3/envs/market/bin/python3.9 /Users/morgan/Code/TDameritrade/main.py -f clear_history
+0 1 * * 1-5 cd /Users/morgan/Code/TDameritrade; ~/anaconda3/envs/market/bin/python3.9 /Users/morgan/Code/TDameritrade/main.py -f dl_spy
+15 13 * * 1-5 cd /Users/morgan/Code/TDameritrade; ~/anaconda3/envs/market/bin/python3.9 /Users/morgan/Code/TDameritrade/main.py -f clear_unfilled
+30 13 * * 1-5 cd /Users/morgan/Code/TDameritrade; ~/anaconda3/envs/market/bin/python3.9 /Users/morgan/Code/TDameritrade/database/positioning_migration.py
+50 5 * * 1-5 cd /Users/morgan/Code/TDameritrade; ~/anaconda3/envs/market/bin/python3.9 /Users/morgan/Code/TDameritrade/stream.py
+

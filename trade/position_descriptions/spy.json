@@ -1,0 +1,60 @@
+{
+    "strategy": "spy",
+    "symbol_pool": ["load_symbols", "SPY"],
+    "position_description": {
+        "tradeType": "SELL_TO_OPEN",
+        "assetType": "OPTION",
+        "positionType": "spread",
+        "betsize": {
+            "per_trade": ["*", "@bankroll", 0.01],
+            "max": ["*", "@bankroll", 0.01]
+        },
+        "entry_point": "2/3rds",
+        "scheduled_close": 4,
+        "spread": {
+            "sell": {
+                "strike": [
+                    "+",
+                    "@spy",
+                    ["*", "@spy", ["*", ["-", "@days_until_opex", 3], 0.003]]
+                ],
+                "expiration": "@opex",
+                "contractType": "PUT"
+            },
+            "buy": {
+                "strike": [
+                    "round",
+                    [
+                        "-",
+                        "@spy",
+                        ["*", "@spy", ["*", ["-", "@days_until_opex", 3], 0.006]]
+                    ],
+                    0
+                ],
+                "expiration": "@opex",
+                "contractType": "PUT"
+            }
+        }
+    },
+    "open_position": {
+        "days": ["32-4"],
+        "times": ["9:30"],
+        "when": {
+            "and": [
+                ["<", "@spy", ["*", 1.03, "@spy_20_day_mean"]],
+                [">", "@spy", "@spy_20_day_mean"]
+            ]
+        },
+        "symbol_filter": [["in_portfolio", "@symbols", false]]
+    },
+    "close_position": {
+        "days": ["31-4"],
+        "times": ["9:30"],
+        "when": {
+            "or": [
+                ["<", "@spy", "@spy_20_day_mean"],
+                [">", "@spy", ["*", "@spy_20_day_mean", 1.03]]
+            ]
+        }
+    }
+}

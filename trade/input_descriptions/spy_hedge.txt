@@ -1,0 +1,24 @@
+strategy: spy_hedge
+symbol_pool: spy
+position_description:
+    trade_type: if net_position < 0 then BUY else SELL_SHORT
+    asset_type: equity
+    position_type: single
+    betsize:
+        per_trade: net_position * 1.25
+        max: net_position * 1.25
+    entry_point: market
+open_position:
+	On:	market
+	At:	9:30
+	When:
+		spy < spy_20_day_mean and
+		spy > spy_20_day_mean - spy_sigma
+	symbol_filter:
+		not in the portfolio
+close_position:
+	On: market
+	At: 9:30
+	When:
+		spy > spy_20_day_mean or 
+		spy < spy_20_day_mean - spy_sigma

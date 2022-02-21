@@ -1,0 +1,470 @@
+SPAC,Ticker,IPO,Deadline,Proceeds ($M),Coverage,Sector,Geography,Underwriter,Unit,Common,Warrant,IPO Sector Focus
+Learn CW Investment Corp,LCW,10/8/2021,4/13/2023,200,50.00%,Technology,Global,Evercore,$10.07,,,Edtech
+Maxpro Capital,JMAC,10/8/2021,10/13/2022,90,100.00%,Healthcare,Global,EF Hutton,$10.11,,,Healthcare and technology
+Schultze II,SAMA,10/8/2021,4/13/2023,150,50.00%,General,Global,Stifel Nicolaus,$9.95,,,Businesses that have experienced a financial restructuring
+Hawks Acq,HWKZ,10/8/2021,4/13/2023,200,50.00%,General,Global,BTIG,$9.87,,,Not specified
+IX Acq,IXAQ,10/7/2021,4/12/2023,200,50.00%,Technology,Global,Cantor Fitzgerald,$9.88,,,"Technology, Media and Telecommunications and Information and Communication Technology (“ICT”), specifically the telecommunications infrastructure, internet and technology and digital services sectors operating in Europe and emerging markets"
+Enphys Acq,NFYS,10/6/2021,10/8/2023,300,50.00%,Energy,LatAm,Credit Suisse,$9.82,,,"Businesses which predominantly operate in Ibero-America and whose business strategy is aligned with energy transition and sustainability themes, in particular renewable energy"
+Phoenix Biotech,PBAX,10/6/2021,1/8/2023,155,50.00%,Healthcare,Global,Cantor Fitzgerald,$10.09,,,Healthcare or healthcare related industries in the United States and Europe
+Avalon Acq Inc.,AVAC,10/6/2021,1/8/2023,180,75.00%,Financial,Global,Maxim,$10.04,,,"Financial services sectors that are undergoing radical change as a result of demographic shifts, changing consumer preferences, technological disruption and other innovative forces."
+Parsec Capital,PCX,10/6/2021,10/8/2022,75,100.00%,Technology,Global,EF Hutton,$10.14,,,"Space economy, transport and technology"
+Mount Rainier,RNER,10/5/2021,1/7/2023,172.5,75.00%,Technology,Global,A.G.P,$10.09,,,"Established, technology focused businesses"
+Crixus BH3 Acq,BHAC,10/5/2021,4/7/2023,230,50.00%,Real Estate,Global,Guggenheim Securities,$9.93,,,"Businesses that manage, finance, operate, construct, control, own or support real estate or which derive a large component of revenue from real estate, construction or infrastructure related activities"
+Monterey Bio,MTRY,10/1/2021,10/5/2022,115,100.00%,Healthcare,Global,Chardan,$10.17,,,Biotech
+Marblegate Acq,GATE,10/1/2021,1/5/2023,300,50.00%,General,Global,Cantor Fitzgerald,$9.94,,,Businesses that have recently undergone a restructuring
+dMY Technology VI,DMYS,10/1/2021,4/5/2023,241.5,50.00%,Technology,Global,Goldman Sachs,$10.14,,,Companies within the mobile application (“app”) ecosystem or consumer internet companies
+Artemis Strategic Investment,ARTE,9/30/2021,4/4/2023,201.3,50.00%,Travel & Hospitality,Global,Barclays,$10.03,,,"Gaming, hospitality and entertainment"
+Home Plate,HPLT,9/30/2021,4/4/2023,200,50.00%,Financial,Global,Jefferies,$9.90,,,Fintech and embedded finance
+Hennessy VI,HCVI,9/29/2021,10/1/2023,300,33.33%,Industrial,US/Canada,Citigroup,$9.96,,,Industrial technology in the United States
+MELI Kaszek Pioneer,MEKA,9/29/2021,10/1/2023,287.5,0.00%,Technology,LatAm,BofA Securities,,$12.48,,"Technology-enabled companies operating in Latin America across a number of verticals, including, but not limited to, commerce, financial services, logistics, healthcare, education, enterprise software and entertainment"
+Berenson Acq I,BACA,9/28/2021,3/30/2023,250,50.00%,Technology,Global,BofA Securities,$9.86,,,Software and technology-enabled services
+Parabellum Acq,PRBM,9/28/2021,3/30/2023,125,75.00%,Technology,Global,B. Riley FBR,$9.97,,,"Proprietary technologies and business models and are actively engaged in the Internet of Things transformation in a variety of segments such as consumer, industrial, automotive, medical and others"
+GigCapital5,GIA,9/24/2021,9/28/2022,230,100.00%,General,Global,Wells Fargo,$10.28,,,"Technology, media, and telecommunications, aerospace and defense, intelligent automation and sustainable industries"
+Direct Selling Acq,DSAQ,9/24/2021,12/28/2022,230,50.00%,Consumer,US/Canada,BTIG,$10.09,,,Direct selling industry
+Live Oak Crestview Climate Acq Corp.,LOCC,9/23/2021,9/27/2023,200,33.33%,Energy,Global,Jefferies,$9.87,,,Climate and sustainability
+Argus Capital,ARGU,9/22/2021,3/24/2023,304.8,50.00%,Media & Entertainment,Global,Goldman Sachs,$10.12,,,"Media, entertainment and sports, including “over-the-top” digital streaming, mobile gaming/interactive entertainment, digital media including advertising/marketing technology, health and wellness/lifestyle, live events/experiential consumer-facing technology"
+Inflection Point Acq Corp.,IPAX,9/22/2021,9/24/2023,300,50.00%,Technology,Global,Citigroup,$9.89,,,Consumer and Technology
+HHG Capital Corporation,HHGC,9/21/2021,9/23/2022,57.5,*,General,Global,EF Hutton,$10.26,,,Not specified
+SOAR Technology Acq,FLYA,9/16/2021,12/20/2022,230,33.33%,General,Global,JP Morgan,$10.17,,,Not specified
+Aesther Healthcare,AEHA,9/15/2021,9/17/2022,105,50.00%,Healthcare,Global,EF Hutton,$10.12,,,Pharmaceutical and medical devices
+WinVest Acq,WINV,9/15/2021,12/17/2022,115,*,Financial,Global,Chardan,$10.40,$9.85,$0.22,Financial services industry
+Endurance Acq,EDNC,9/15/2021,3/17/2023,200,50.00%,Technology,Global,Cantor Fitzgerald,$9.96,,,"Data infrastructure and analytics, with a primary focus on space and wireless industries and related technology and services, “space-based tech” businesses"
+Sierra Lake Acq Corp.,SIER,9/15/2021,12/17/2022,300,50.00%,General,Global,Cantor Fitzgerald,$9.98,,,Not specified
+"CIIG Capital Partners II, Inc.",CIIG,9/15/2021,3/17/2023,287.5,50.00%,Technology,Global,UBS,$10.05,,,"Technology, media and telecommunications industries and companies with sustainability business models (“TMTS”) that are enabled by technology"
+Pacifico Acq,PAFO,9/14/2021,9/16/2022,57.5,*,General,Asia,Chardan,$10.15,$9.82,,"New energy, biotech, and education in Asia (excluding China)"
+Bannix Acq Corp,BNIX,9/10/2021,12/14/2022,69,*,Technology,Global,I-Bankers Securities,$10.25,,,"B2B enterprise software companies, particularly those operating in the Customer Engagement space within the telecom, retail and financial services sectors"
+Future Health ESG,FHLT,9/10/2021,12/14/2022,200,50.00%,Healthcare,Global,Cantor Fitzgerald,$9.99,,,Smart health technology
+SILVERspac,SLVR,9/10/2021,9/14/2023,250,33.33%,Financial,Global,Goldman Sachs,$9.94,,,PropTech and FinTech
+First Light Acq,FLAG,9/10/2021,9/14/2022,230,50.00%,Technology,Global,Guggenheim Securities,$9.94,,,"Companies that provide technology-enabled solutions with high-growth, mission-critical applications in government and commercial markets"
+Banner Acq,BNNR,9/8/2021,3/10/2023,157,50.00%,General,US/Canada,BofA Securities,$9.95,,,"Healthcare, education and business services"
+Oxus Acq Corp.,OXUS,9/3/2021,3/8/2023,172.5,100.00%,Energy,Global,EarlyBirdCapital,$10.22,$9.80,$0.35,"Energy transition technologies, such as battery materials, energy storage, EV infrastructure and advanced recycling in emerging/frontier countries"
+Digital World Acq,DWAC,9/3/2021,9/8/2022,287.5,50.00%,Financial,US/Canada,EF Hutton,$10.17,$9.95,$0.44,"Middle-market emerging growth technology-focused companies in the Americas, in the SaaS and Technology or Fintech and Financial Services sector."
+DTRT Health,DTRT,9/2/2021,12/7/2022,230,50.00%,Healthcare,US/Canada,Cantor Fitzgerald,$10.09,,,"The healthcare industry, specifically home and community based healthcare services (“HCBS”), which may include home health, personal and private duty care, home-based therapy, adult day care, medical transportation, pediatric health, facility based community services, healthcare information technology and software services, care management, behavioral health, staffing, medical devices, and health and wellness programs, among others"
+Insight Acq,INAQ,9/2/2021,3/7/2023,240,50.00%,Financial,Global,Cantor Fitzgerald,$9.93,,,"FinTech or financial services companies with particular emphasis on businesses that are providing or changing technology for traditional financial services, those in the wealth, investment, asset management and insurance sectors, or certain types of technology companies that provide services to the fintech or financial services companies"
+Concord Acq II,CNDA,9/1/2021,9/3/2023,280.1,33.33%,Financial,Global,Citigroup,$10.00,,,"Financial services and financial technology sectors, including payments, enterprise software, and data analytics"
+Alpine Acq,REVE,8/31/2021,9/2/2022,107,50.00%,Travel & Hospitality,Global,Maxim,$10.18,,,"Drive-to destination hotels, digital entertainment and gaming, and lodging technology businesses"
+CHW Acq Corporation,CHWA,8/30/2021,12/1/2022,125,100.00%,General,Global,Chardan,$10.15,$9.77,$0.40,Not specified
+Minority Equality Opportunities,MEOA,8/26/2021,8/30/2022,126.5,100.00%,General,Global,Maxim,$10.19,,,Minority Owned Businesses
+Cascadia Acq,CCAI,8/26/2021,3/2/2023,150,50.00%,Technology,Global,Cantor Fitzgerald,$9.91,,,Sectors that are being fundamentally reshaped by the introduction of advanced technologies
+Springwater Special Situations,SWSS,8/26/2021,3/2/2023,171.2,50.00%,General,Europe,EarlyBirdCapital,$10.01,$9.80,$0.48,"Media, engineering construction, engineering services, facility management and services, food and beverages, semiconductor, aerospace, paper and pulp, logistics and distribution, IT services, software solutions, tourism, hospitality, aviation, retail, precious metals trading and services, oil and gas, environmental services, steel, household appliances, construction materials and shipping and cruise industries"
+Waverley Capital 1,WAVC,8/20/2021,8/24/2023,214.9,33.33%,Media & Entertainment,Global,Evercore,$9.94,,,"Media, technology or entertainment"
+Armada Acq I,AACI,8/13/2021,11/17/2022,150,50.00%,Financial,Global,Northland Capital Markets,$9.96,,,"Digital, on-line or mobile payment solutions, processing and gateway services, point-of-sale technology, consumer engagement platforms, and ecommerce and loyalty solutions"
+Jupiter Acq,JAQC,8/13/2021,8/17/2023,157.6,50.00%,Consumer,Global,Nomura,$9.90,$9.69,$0.51,Consumer and TMT
+Kensington Capital Acq Corp. V,KCGI,8/13/2021,8/17/2022,276,75.00%,Industrial,Global,UBS,$10.29,$9.85,$0.67,North American and European industrials
+AxonPrime Infrastructure,APMI,8/13/2021,8/17/2023,150,33.33%,Industrial,Global,Morgan Stanley,$9.88,$9.62,,Infrastructure
+CENAQ Energy Corp.,CENQ,8/13/2021,8/17/2022,172.5,75.00%,Energy,US/Canada,Imperial Capital,$10.13,$9.86,$0.39,Energy in North America
+PHP Ventures Acq,PPHP,8/12/2021,8/16/2022,57.5,*,Consumer,EEMEA,EF Hutton,$10.30,$9.83,$0.39,Consumer-facing companies with a significant Africa presence or compelling Africa potential
+Oxbridge Acq,OXAC,8/12/2021,11/16/2022,115,100.00%,Technology,Global,Maxim,$10.16,$9.84,$0.38,Disruptive technology companies in the insurance technology sectors and companies that focus on blockchain and artificial intelligence
+AfterNext HealthTech,AFTR,8/12/2021,8/16/2023,250,33.33%,Healthcare,Global,Goldman Sachs,$9.93,$9.69,$0.65,Healthtech
+TPB Acq Corp I,TPBA,8/11/2021,8/13/2023,180.4,33.33%,General,Global,Barclays,$9.91,,,"Sustainability-focused companies across the food, agriculture, biomanufacturing, and life sciences sectors"
+10X Capital Venture Acq Corp. II,VCXA,8/11/2021,11/13/2022,200,33.33%,Technology,Global,Cantor Fitzgerald,$10.00,$9.74,$0.80,"Technology and tech-enabled businesses domestically and abroad in the consumer internet, ecommerce, software, healthcare and financial services"
+Decarbonization Plus Acq Corp IV,DCRD,8/11/2021,2/13/2023,316.3,50.00%,Energy,Global,Credit Suisse,$10.17,$9.91,$0.70,"Global decarbonization, including energy and agriculture, industrials, transportation and commercial and residential"
+PONO Capital,PONO,8/11/2021,8/13/2022,115,75.00%,General,Global,EF Hutton,$10.21,,,"Enterprise security and operations applications, cloud-based content and digital streaming services, drone technology and service, AI companies, consumer healthcare and wellness, biomedical technology, entertainment/gaming companies, distance learning, and e-sports companies"
+World Quantum Growth,WQGA,8/11/2021,2/13/2023,204,50.00%,Financial,Global,Credit Suisse,$10.01,$9.82,$0.50,Financial services and fintech in the US and EMEA as well as technology firms supporting these sectors
+Chardan NexTech Acq 2 Corp.,CNTQ,8/11/2021,8/13/2022,126.5,75.00%,Technology,Global,Chardan,$10.25,$9.95,$0.44,Healthtech and Fintech
+Avista II,AHPA,8/10/2021,2/12/2023,230,33.33%,Healthcare,Global,Credit Suisse,$10.14,$9.95,$0.53,Healthcare
+Conyers Park III,CPAA,8/10/2021,8/12/2023,357,33.33%,Consumer,Global,Deutsche Bank,$10.13,$9.75,$1.05,Consumer
+ABRI SPAC I,ASPA,8/10/2021,8/12/2022,57.3,100.00%,Financial,Global,Chardan,$10.27,$9.79,$0.47,Power transformation companies that provide disruptive technological innovation in a range of traditionally managed industries with particular emphasis on the financial services industry.
+Roth CH IV,ROCG,8/6/2021,2/10/2023,115,50.00%,General,Global,Craig-Hallum Capital Group,$10.10,$9.87,$0.55,"Business services, consumer, healthcare, technology, wellness or sustainability"
+Nova Vision Acq,NOVV,8/6/2021,8/10/2022,57.5,*,General,Asia,EF Hutton,$10.13,$9.82,$0.19,"PropTech, FinTech, ConsumerTech, Supply Chain Management in Asia (excluding mainland China and Hong Kong)"
+Riverview Acq Corp.,RVAC,8/6/2021,2/10/2023,250,50.00%,General,Global,Cantor Fitzgerald,$9.89,$9.89,,"Consumer-focused enterprises, including e-commerce, energy services and renewables, insurance and financial services"
+Gladstone Acq,GLEE,8/5/2021,11/9/2022,104.9,50.00%,General,Global,EF Hutton,$10.17,$10.00,$0.51,Farming and agricultural
+AMCI Acq II,AMCI,8/4/2021,8/6/2023,172.5,50.00%,Industrial,Global,Evercore,$9.93,$9.71,$0.54,Businesses that provide decarbonization and/or sustainability solutions to the global industrial complex
+Blue Whale I,BWC,8/4/2021,8/6/2023,229.4,25.00%,Media & Entertainment,Global,Goldman Sachs,$9.77,,,"Media, entertainment and technology"
+Healthwell Acq I,HWEL,8/3/2021,8/5/2023,250,50.00%,Healthcare,Global,Jefferies,$9.96,$9.75,$0.58,Technology-enabled companies across the healthcare industry
+XPAC Acq,XPAX,7/30/2021,8/3/2023,219.6,33.33%,General,LatAm,Citigroup,$9.82,$9.69,$0.51,"Healthcare, financial services, education, consumer goods & retail, and technology in Brazil"
+Metals Acq,MTAL,7/29/2021,8/2/2023,265.1,33.33%,Materials,Global,Citigroup,$9.98,$9.79,$0.67,"Green-economy-focused metals and mining businesses in high quality, stable jurisdictions"
+International Media Acq Corp.,IMAQ,7/29/2021,8/2/2022,230,*,Media & Entertainment,Global,Chardan,$10.15,$9.85,$0.26,"Media and entertainment in North America, Europe and Asia (excluding China)"
+Software Acq III,SWAG,7/29/2021,2/2/2023,228.1,50.00%,Technology,Global,Jefferies,$10.13,$9.85,$0.53,"Software companies, especially those targeting enterprise vertical sectors owned by private equity and venture capital firms as well as corporate carve-outs"
+Alpha Partners Tech,APTM,7/28/2021,7/30/2023,282.5,33.33%,Technology,Global,Citigroup,$9.91,$9.73,$0.60,"Software and Technology sector including digital health, enterprise software, e-commerce, e-learning, fintech, information services, mobility and transportation, and tech-enabled services."
+Mercury Ecommerce Acq Corp.,MEAC,7/28/2021,1/30/2023,180.4,50.00%,Technology,US/Canada,Needham,$10.02,$9.80,$0.49,Ecommerce
+DA32 Life Science,DALS,7/28/2021,7/30/2023,200,0.00%,Healthcare,Global,JP Morgan,,$9.74,,Life sciences
+Williams Rowland Acq,WRAC,7/27/2021,1/29/2023,230,50.00%,Financial,Global,Oppenheimer,$10.14,$9.92,$0.49,"Financial services, fintech and technology"
+Alpha Healthcare Acq Corp. III,ALPA,7/27/2021,7/29/2023,154.4,25.00%,Healthcare,US/Canada,BofA Securities,$9.86,$10.02,$0.98,Healthcare
+Belong Acquisition,BLNG,7/23/2021,1/27/2023,150,50.00%,Technology,Global,Wells Fargo,$9.96,$9.73,$0.54,"High-growth technology and tech-enabled businesses in sectors such as e-commerce, software, and digital media"
+Portage Fintech,PFTA,7/21/2021,7/23/2023,259.1,33.33%,Financial,Global,Goldman Sachs,$9.90,$9.73,$0.75,"Financial technology (“FinTech”) or financial services ecosystem, including key verticals such as Wealth and Asset Management, Consumer and SME Finance, Insurance, Payments, Information Services and FinTech Infrastructure"
+TortoiseEcofin Acquisition III,TRTL,7/20/2021,7/22/2023,300,25.00%,Energy,Global,Barclays,$9.95,$9.69,$1.06,Broad energy transition or sustainability
+Clover Leaf Capital Corp.,CLOE,7/20/2021,7/22/2022,138.3,*,Cannabis,Global,Maxim,$10.11,$10.00,,Cannabis
+Chavant Capital,CLAY,7/20/2021,7/22/2022,80,75.00%,Industrial,Global,Roth Capital Partners,$10.20,$9.87,$0.42,Advanced manufacturing and advanced materials technology
+StoneBridge Acq Corp.,APAC,7/16/2021,10/20/2022,200,50.00%,Technology,Global,Cantor Fitzgerald,$9.94,$9.90,$0.44,"Consumer technology, communications, software, SaaS, fintech or media"
+Bilander Acq,TWCB,7/16/2021,7/20/2023,168.5,25.00%,Technology,Global,Morgan Stanley,$9.91,$9.72,$1.00,Technology
+Black Spade Acq,BSAQ,7/16/2021,7/20/2023,169,50.00%,Media & Entertainment,Asia,Citigroup,$10.04,$9.80,$0.52,"The entertainment industry, with a focus on enabling technology, lifestyle brands, products, or services and entertainment media in Asia"
+CleanTech Acq,CLAQ,7/15/2021,7/19/2022,172.5,*,General,Global,Chardan,$10.31,$9.92,$0.43,CleanTech and ClimateTech companies with strong market positions poised to capitalize on changing macroeconomic forces
+TradeUP Acq Corp,UPTD,7/15/2021,1/19/2023,44.3,50.00%,Technology,Global,US Tiger Securities,$10.06,$9.90,$0.43,Technology
+JATT Acq,JATT,7/14/2021,1/16/2023,138,50.00%,Healthcare,Global,Raymond James,$10.13,$9.85,$0.55,Businesses primarily operating in the life sciences sector
+ARYA Sciences V,ARYE,7/13/2021,7/15/2023,149.5,0.00%,Healthcare,Global,Jefferies,,$9.83,,North American or European companies in the life sciences and medical technology sectors
+Good Works II Acq,GWII,7/12/2021,10/14/2022,230,50.00%,General,Global,I-Bankers Securities,,$9.75,$0.58,Business experiencing very high-growth
+Acropolis Infrastructure Acq,ACRO,7/9/2021,7/13/2023,345,33.33%,Industrial,US/Canada,Credit Suisse,$9.98,$9.71,$0.90,"Infrastructure, infrastructure services and related sectors in North America"
+Galata Acquisition Corp.,GLTA,7/9/2021,7/13/2023,143.8,50.00%,Financial,EEMEA,B. Riley FBR,$10.05,$9.86,$0.49,Technology-enabled financial services businesses in emerging markets
+AltC Acq Corp.,ALCC,7/8/2021,7/12/2023,500,0.00%,General,Global,Citigroup,,$9.81,,Not specified
+Agrico Acq Corp.,RICO,7/8/2021,7/12/2022,143.8,50.00%,General,US/Canada,Maxim,$10.12,$10.00,$0.42,"Agriculture, horticulture, and aquaculture companies that aim to improve yield, efficiency or profitability in the production, processing, distribution, provision of capital, or consumption of outputs, inputs, data, technology or other services"
+Macondray Capital I,DRAY,7/1/2021,1/6/2023,287.5,33.33%,Technology,Global,B. Riley FBR,$9.97,$9.83,$0.53,"Software, data and technology, media and telecom"
+Frontier Investment,FICV,7/1/2021,7/6/2023,200,33.33%,Technology,EEMEA,JP Morgan,$9.88,$9.79,$0.61,"Technology, digital media, e-commerce, financial technology, or digital services sectors across the high growth markets of the Middle East North Africa & Turkey, Sub-Saharan Africa, South Asia and Southeast Asia"
+Corsair Partnering,CORS,7/1/2021,7/6/2023,280.9,33.33%,Financial,Global,Evercore,$9.96,$9.76,$0.78,Financial or business services
+G3 VRM Acq,GGGV,7/1/2021,7/6/2022,106.3,*,Technology,Global,Maxim,$10.16,$10.00,,"Technology, specifically within software, technology-enabled and business services"
+Shelter Acq Corp,SHQA,6/30/2021,1/2/2023,221.6,50.00%,Real Estate,Global,Citigroup,$9.94,$9.74,$0.50,PropTech
+Social Capital Suvretta II,DNAB,6/30/2021,7/2/2023,250,0.00%,Healthcare,Global,Morgan Stanley,,$9.84,,Biotechnology industry and within the oncology subsector
+Social Capital Suvretta III,DNAC,6/30/2021,7/2/2023,250,0.00%,Healthcare,Global,Morgan Stanley,,$9.82,,Biotechnology industry and within the organ space subsector
+Social Capital Suvretta I,DNAA,6/30/2021,7/2/2023,250,0.00%,Healthcare,Global,Morgan Stanley,,$9.83,,Biotechnology industry and within the neurology subsector
+Mountain Crest IV,MCAF,6/30/2021,7/2/2022,57.5,*,General,US/Canada,Network 1 Financial Securities,$10.12,$9.73,,North America
+Thunder Bridge Capital IV,THCP,6/30/2021,7/2/2023,236.5,20.00%,Financial,Global,Morgan Stanley,$9.83,$9.69,$0.97,Financial Services
+Social Capital Suvretta IV,DNAD,6/30/2021,7/2/2023,250,0.00%,Healthcare,Global,Morgan Stanley,,$9.83,,Biotechnology industry and within the immunology subsector
+Gobi Acq,GOBI,6/29/2021,7/1/2023,255.4,0.00%,General,Asia,Citigroup,,$9.83,,Targets that have an established presence in Asia Pacific
+Elliott Opportunity II Corp.,EOCW,6/29/2021,7/1/2023,609.5,25.00%,Technology,Global,Credit Suisse,$10.02,$9.76,$1.05,Technology
+Northern Lights,NLIT,6/24/2021,6/28/2022,115,50.00%,Cannabis,Global,EF Hutton,$10.23,$10.00,$0.43,Cannabis
+FinTech Acq VI,FTVI,6/24/2021,12/28/2022,250,25.00%,Financial,US/Canada,Cantor Fitzgerald,$9.91,$9.78,$1.00,Fintech
+Coliseum Acq,MITA,6/23/2021,6/25/2023,150,33.33%,Media & Entertainment,Global,Stifel Nicolaus,$9.85,$9.69,$0.68,"Consumer product, service and media companies at the intersection of sports, entertainment, digital media and/or technology"
+Jaws Juggernaut,JUGG,6/18/2021,6/22/2023,276,25.00%,Technology,Global,Credit Suisse,$10.13,$9.84,$1.12,Wireless communications and related technology/product/service businesses
+Corner Growth Acquisition II,TRON,6/17/2021,6/21/2022,185,33.33%,Technology,Global,Cantor Fitzgerald,$10.10,$9.84,$0.94,Technology in the United States and other developed countries
+Rice Acquisition Corp. II,RONI,6/16/2021,6/18/2023,345,25.00%,Energy,Global,Citigroup,$10.19,$9.96,$1.61,Energy transition or sustainability
+Zimmer Energy Transition Acq Corp.,ZT,6/16/2021,6/18/2023,345,33.33%,Energy,US/Canada,Citigroup,$10.01,$9.72,$0.88,"The energy value chain in North America, with a focus on energy transition and sustainability"
+DILA Capital Acq,DILA,6/15/2021,12/17/2022,58.3,100.00%,Technology,LatAm,EarlyBirdCapital,$10.29,$9.72,$0.54,"Businesses located in Latin America, as well as businesses located in the United States which cater to the Hispanic community"
+G Squared II,GSQB,6/15/2021,6/17/2023,143.8,33.33%,General,Global,UBS,$9.98,$9.78,,"Software-as-a-Service, Online Marketplaces, Mobility 2.0/Logistics, Fintech/Insurtech, New Age Media and Sustainability"
+Jaws Hurricane,HCNE,6/11/2021,6/15/2023,316.3,25.00%,General,US/Canada,Credit Suisse,$10.04,$9.75,$1.24,North American consumer and technology businesses
+Lakeshore Acq I Corp.,LAAA,6/11/2021,9/15/2022,54.7,75.00%,General,Global,Craig-Hallum Capital Group,$10.17,$9.85,$0.53,Not specified
+Logistics Innovation Tech Corp.,LITT,6/11/2021,6/15/2023,340.9,33.33%,Industrial,Global,Guggenheim Securities,$9.91,$9.80,$0.81,"Logistics, which includes both logistics technology companies and traditional industry players that can leverage technology to improve the efficiency of customer supply chains and their markets"
+Blue Safari Group Acq Corp,BSGA,6/10/2021,6/14/2022,57.5,*,Financial,Global,Maxim,$10.20,$9.84,,"Fintech, Infotech, Insurtech, and business services"
+Iron Spark I Inc.,ISAA,6/9/2021,6/11/2023,166.8,0.00%,Consumer,Global,Morgan Stanley,,$10.05,,"Branded consumer, with a focus on athletics and sport-culture, apparel and accessories and food, wellness and lifestyle"
+Summit Healthcare,SMIH,6/9/2021,6/11/2023,200,50.00%,Healthcare,Asia,BofA Securities,$9.90,$9.70,$0.44,Healthcare in Asia
+Colombier Acq,CLBR,6/9/2021,6/11/2023,172.5,33.33%,Consumer,Global,B. Riley FBR,$9.88,$9.70,$0.59,"Consumer products, social, and entertainment"
+Global Consumer Acq Corp.,GACQ,6/9/2021,6/11/2022,182.6,50.00%,Consumer,Global,EF Hutton,$10.04,$9.87,$0.46,Consumer products and services
+SPK Acq,SPK,6/8/2021,3/10/2022,50.9,*,Technology,Asia,Chardan,$10.07,$9.90,,TMT in Asia
+OceanTech Acq I,OTEC,5/28/2021,6/2/2022,103.3,100.00%,Consumer,Global,Maxim,$10.32,$9.96,$0.49,"Leisure marine, yachting and superyachting"
+Dynamics Special Purpose,DYNS,5/26/2021,5/28/2023,230,0.00%,Healthcare,US/Canada,JP Morgan,,$9.92,,"Companies across the emerging healthcare value chain, life sciences tools, enabling-software, synthetic biology and novel drug discovery and development platforms that enable applications in prevention, diagnosis, treatment and advanced bio-materials"
+Post Holdings,PSPC,5/26/2021,5/28/2023,345,33.33%,Consumer,Global,Evercore,$10.00,$9.75,$1.03,Consumer
+EG Acq,EGGF,5/26/2021,5/28/2023,225,33.33%,General,Global,BTIG,$9.91,$9.70,$0.59,"Transportation and real assets, financial services, financial services technology, healthcare, real estate, and sustainability-focused businesses"
+Fifth Wall Acquisition III,FWAC,5/25/2021,5/27/2023,275,0.00%,Real Estate,Global,Deutsche Bank,,$9.85,,Technology businesses focusing on verticals of the real estate industry
+Graf Acq Corp. IV,GFOR,5/21/2021,5/25/2023,171.6,20.00%,General,Global,Oppenheimer,$9.86,$9.72,$0.87,Not specified
+Skydeck Acq,SKYA,5/19/2021,5/21/2023,221.7,33.33%,Media & Entertainment,US/Canada,JP Morgan,$9.88,$9.76,$0.63,"Media, technology, communications and digital health"
+GigInternational1,GIW,5/19/2021,8/21/2022,209,50.00%,General,EEMEA,Oppenheimer,$10.21,$9.95,$0.66,"TMT, aerospace and defense, mobility, and semiconductor industries"
+Aries I Acquisition Corp,RAM,5/19/2021,5/21/2022,143.8,50.00%,Technology,Global,Wells Fargo,$10.32,$9.93,$0.55,"Highly specialized fields within the technology sector across North America, Europe and Asia: aerospace, satellites, and space exploration, quantum computing and chemistry, artificial intelligence (“AI”) and machine learning (“ML”), cybersecurity, and blockchain and digital currencies"
+Catalyst Partners Acq,CPAR,5/18/2021,5/20/2023,343.6,20.00%,Technology,Global,Goldman Sachs,$9.92,$9.75,$0.80,Enterprise software
+Angel Pond Holdings Corp,POND,5/18/2021,5/20/2023,265.5,33.33%,Technology,Asia,Goldman Sachs,$9.98,$9.76,$0.75,Technology in Greater China
+Mountain Crest III,MCAE,5/18/2021,5/20/2022,54.2,*,General,US/Canada,Chardan,$10.20,$9.82,,Not specified
+Osiris Acquisition,OSI,5/14/2021,5/18/2023,230,50.00%,Consumer,Global,Jefferies,$9.91,$9.70,$0.52,"Consumer, retail and leisure"
+Orion Biotech Opportunities Corp.,ORIA,5/13/2021,5/17/2023,200,20.00%,Healthcare,Global,Cantor Fitzgerald,$9.90,$10.20,$1.01,Biotechnology and life sciences
+Data Knights Acq Corp.,DKDCA,5/7/2021,5/11/2022,115,100.00%,Technology,Global,EF Hutton,$10.42,$10.05,$0.39,Data centers and internet technology
+B. Riley Principal 250 Merger Corp.,BRIV,5/7/2021,5/11/2023,172.5,33.33%,General,Global,B. Riley FBR,$9.93,$9.72,$0.71,Not specified
+Maquia Capital Acq,MAQC,5/5/2021,5/7/2022,173.1,50.00%,Technology,US/Canada,EF Hutton,$10.20,$10.01,$0.52,Technology-focused middle market and emerging growth companies in North America
+Valor Latitude Acq,VLAT,5/4/2021,5/6/2023,230,33.33%,Technology,LatAm,BofA Securities,$9.93,$9.75,$0.80,Technology-enabled Latin American companies seeking to become category-defining enterprises and those targeting or expected to pursue cross-border expansion
+ION Acq 3,IACC,4/30/2021,5/4/2023,253,0.00%,Technology,EEMEA,Morgan Stanley,,$9.77,,Israeli companies and entrepreneurs that apply technology and innovation to everyday lives
+Big Sky Growth Partners,BSKY,4/29/2021,5/3/2023,300,25.00%,Consumer,Global,Goldman Sachs,$9.98,$9.78,$0.75,Native Internet Retail and Direct-to-Consumer companies
+TPG Pace Beneficial II Corp.,YTPG,4/14/2021,4/16/2023,400,0.00%,General,Global,Deutsche Bank,,$9.85,,ESG
+TCV Acq,TCVA,4/14/2021,4/16/2023,400,0.00%,Technology,Global,Citigroup,,$9.80,,"Software, internet, and financial technology"
+Global SPAC Partners,GLSPT,4/9/2021,4/13/2022,167.5,*,General,EEMEA,I-Bankers Securities,$10.22,$9.98,$0.48,"Middle East, North Africa (“MENA”) or South & Southeast Asian regions"
+Tio Tech A,TIOA,4/8/2021,4/12/2023,345,33.33%,Technology,Europe,Deutsche Bank,$9.94,$9.74,$0.71,Technology-enabled businesses in Europe
+Panacea Acquisition II,PANA,4/7/2021,4/9/2023,172.5,0.00%,Healthcare,Global,Cowen,,$9.79,,Biotechnology in North America or Europe
+Nocturne Acq,MBTC,3/31/2021,4/5/2022,115,*,Technology,Global,Chardan,$10.28,$9.98,,Disruptive technology companies that focus on blockchain/crypto and artificial intelligence
+two,TWOA,3/30/2021,4/1/2023,214.4,0.00%,Technology,Global,Citigroup,,$9.77,,Technology
+Landcadia IV,LCA,3/25/2021,3/29/2023,500,25.00%,Consumer,Global,Jefferies,$10.00,$9.78,$1.01,"Consumer, dining, hospitality, entertainment and gaming"
+MSD Acq Corp,MSDA,3/25/2021,3/29/2023,575,20.00%,Technology,Global,Goldman Sachs,$10.04,$9.81,$1.14,Technology and Media
+Disruptive Acq Corp I,DISA,3/24/2021,3/26/2023,275,33.33%,Healthcare,Global,Credit Suisse,$9.92,$9.77,$0.69,"Health and wellness, entertainment and consumer-facing technology sectors."
+Khosla Ventures III,KVSC,3/24/2021,3/26/2023,563.3,0.00%,Technology,Global,Goldman Sachs,,$9.81,,Technology
+Northern Gen Acq III,NGC,3/24/2021,3/26/2023,172.5,25.00%,General,Global,Morgan Stanley,$9.94,$9.76,$0.90,Not specified
+Corazon Capital V838 Mono.,CRZN,3/24/2021,3/26/2023,203.8,33.33%,Consumer,Global,Citigroup,$9.95,$9.76,$0.73,"Consumer-facing technology, subscription or recurring revenue models, marketplaces and networks, or that operate in sectors such as education, social media and dating, and ecommerce"
+Glass Houses Acq,GLHA,3/23/2021,3/25/2023,220.5,50.00%,Industrial,Global,Jefferies,$10.09,$9.77,$0.74,Businesses that provides critical resources and/or services to the technologies powering the 21st century industrial economy
+Lead Edge Growth Opportunities,LEGA,3/23/2021,3/25/2023,345,25.00%,General,Global,JP Morgan,$9.98,$9.82,$0.70,Not specified
+Dragoneer Growth III,DGNU,3/23/2021,3/25/2023,430.7,0.00%,General,Global,Citigroup,,$9.83,,"Internet, media, consumer/retail, healthcare IT and financial services/fintech"
+Rocket Internet,RKTA,3/23/2021,3/25/2023,267,25.00%,Technology,Global,Citigroup,$9.93,$9.69,$0.74,Technology
+ArcLight Clean Transition II,ACTD,3/23/2021,3/25/2023,311.2,20.00%,Energy,Global,Citigroup,$9.93,$9.77,$1.11,Renewable energy
+Virgin Group Acq II,VGII,3/23/2021,3/25/2023,402.5,20.00%,Consumer,Global,Credit Suisse,$9.90,$9.71,$0.89,Consumer
+Newbury Street Acq,NBST,3/23/2021,3/25/2023,128.4,50.00%,Media & Entertainment,Global,EarlyBirdCapital,$9.98,$9.74,$0.49,Consumer internet or media
+Supernova Partners Acq III,STRE,3/23/2021,3/25/2023,281,20.00%,Technology,Global,JP Morgan,$9.95,$9.81,$0.83,"Technology, with a focus on internet, consumer, media and similar businesses"
+TB SA Acq,TBSA,3/23/2021,3/25/2023,200,33.33%,General,EEMEA,Deutsche Bank,$9.89,$9.68,$0.58,South Africa and Sub-Saharan Africa
+Glenfarne Merger,GGMC,3/19/2021,3/23/2023,272.5,33.33%,Industrial,US/Canada,Mizuho,$9.88,$9.81,$0.70,"Infrastructure or infrastructure services in the Americas, including but not limited to energy, power, transportation & logistics, transmission, water systems, real estate services and telecommunications"
+Levere Holdings,LVRA,3/19/2021,3/23/2023,271.3,33.33%,Automotive,EEMEA,Citigroup,$10.00,$9.77,$0.86,"Autonomous driving, connected vehicles, mobility services and electric vehicles in Europe, Middle East, and Africa"
+AF Acq,AFAQ,3/19/2021,3/23/2023,224,33.33%,Consumer,Global,Cowen,$9.90,$9.74,$0.63,"Food and beverage, health and wellness, beauty, pet, and personal care sectors in the United States."
+LDH Growth Corp I,LDHA,3/19/2021,3/23/2023,230,20.00%,Technology,LatAm,Citigroup,$9.87,$9.77,$0.79,High-quality growth technology-enabled companies participating in the digital future of Latin American and Hispanic markets
+BYTE Acquisition Corp.,BYTS,3/19/2021,3/23/2023,323.7,50.00%,Technology,EEMEA,Citigroup,$10.00,$9.72,$0.60,"Israeli technology, including cybersecurity, automotive technology, fintech, enterprise software, cloud computing, semiconductors, medical technology, artificial intelligence (“AI”) and robotics and that offer a differentiated technology platform and products"
+Revolution Healthcare Acq Corp.,REVH,3/18/2021,3/22/2023,550,20.00%,Healthcare,Global,Morgan Stanley,$9.92,$9.75,$0.79,"Technology, health care and life sciences, including patient-centric, data-driven, cloud-based platforms"
+Research Alliance II,RACB,3/18/2021,3/22/2023,149.5,0.00%,Healthcare,Global,Jefferies,,$9.86,,Biotechnology
+GX Acq Corp. II,GXII,3/18/2021,3/22/2023,300,33.33%,General,Global,Cantor Fitzgerald,$9.85,$9.70,$0.60,Not specified
+American Acq Opportunity,AMAO,3/18/2021,3/22/2022,105.1,50.00%,General,Global,EF Hutton,$10.05,$9.96,$0.66,"Companies controlling or owning the natural resources used in supporting and creating a resilient and critical domestic supply chain, including transportation, green infrastructure and sustainable logistics"
+Accelerate Acq Corp.,AAQC,3/18/2021,3/22/2023,400,33.33%,General,US/Canada,UBS,$10.10,$9.80,$0.93,"Industrial, transportation & mobility, consumer and retail in North America"
+Forum IV,FMIV,3/18/2021,3/22/2023,336,25.00%,General,Global,Jefferies,$10.03,$9.78,$0.97,Not specified
+Tech and Energy Transition,TETC,3/17/2021,3/19/2023,385,33.33%,Technology,Global,Citigroup,$9.95,$9.77,$0.65,"Companies that use or facilitate disruptive, differentiated technology to build, enable, service or manage businesses or infrastructure undergoing transformation; in particular, software, technology enabled services, communications, internetworking, clean energy and industrial technology that enable or support digital transformation."
+Golden Arrow Merger Corp.,GAMC,3/17/2021,3/19/2023,287.5,33.33%,Healthcare,US/Canada,BTIG,$9.91,$9.80,$0.52,Healthcare or healthcare-related infrastructure industries in the United States and other developed countries
+Build Acq Corp.,BGSX,3/17/2021,3/19/2023,200,33.33%,Technology,US/Canada,Cowen,$10.03,$9.74,$0.66,"Software-as-a-Service (SaaS), Infrastructure Software and Services (ISS) and Financial Technology (Fintech) in North America"
+KKR Acq I,KAHC,3/17/2021,3/19/2023,"1,380.00",25.00%,Consumer,Global,Citigroup,$9.97,$9.77,$0.98,Consumer or retail
+Kadem Sustainable Impact,KSI,3/17/2021,3/19/2023,175,50.00%,Automotive,Global,BMO Capital Markets,$9.89,$9.71,$0.56,"The electric vehicle, energy storage and distribution, and enabling mobility technologies ecosystem"
+FAST Acq Corp. II,FZT,3/16/2021,3/18/2023,222.3,25.00%,Travel & Hospitality,US/Canada,Jefferies,$9.91,$9.75,$1.00,"Restaurant, hospitality, and related sectors in North America"
+European Biotech Acq,EBAC,3/16/2021,3/18/2023,127.5,33.33%,Healthcare,Europe,Credit Suisse,$9.87,$9.82,$0.56,Life Sciences Industry in Europe
+Fortress Value Acq IV,FVIV,3/16/2021,3/18/2023,650,12.50%,General,Global,Deutsche Bank,$9.85,$9.78,$0.84,Not Specified
+Plum Acq Corp. I,PLMI,3/16/2021,3/18/2023,319.2,20.00%,General,Global,Goldman Sachs,$9.86,$9.73,$0.76,Not specified
+Waldencast Acq Corp,WALD,3/16/2021,3/18/2023,345,33.33%,Consumer,Global,Credit Suisse,$10.05,$9.82,$0.81,"Health, Beauty, and Wellness industries"
+CF Acquisition VIII,CFFE,3/12/2021,3/16/2022,250,25.00%,General,Global,Cantor Fitzgerald,$10.11,$9.92,$0.81,"Financial services, healthcare, real estate services, technology and software"
+Gores Technology Partners,GTPA,3/12/2021,3/16/2023,275,20.00%,Technology,Global,Deutsche Bank,$10.00,$9.83,$1.15,"Consumer internet, enterprise software, fintech, digital health, proptech, gaming, agtech, and logistics"
+FTAC Parnassus Acq,FTPA,3/12/2021,3/16/2023,250,25.00%,Technology,Global,Cantor Fitzgerald,$9.98,$9.76,$0.95,Fintech
+Stratim Cloud Acq,SCAQ,3/12/2021,3/16/2023,250,33.33%,Technology,Global,BofA Securities,$9.86,$9.78,$0.63,Technology
+Ross Acquisition II,ROSS,3/12/2021,3/16/2023,345,33.33%,General,Global,BofA Securities,$9.97,$9.74,$0.90,"North America, Europe, or Asia"
+Gores Technology Partners II,GTPB,3/12/2021,3/16/2023,460,20.00%,Technology,Global,Deutsche Bank,$10.00,$9.84,$1.20,"Consumer internet, enterprise software, fintech, digital health, proptech, gaming, agtech, and logistics"
+L Catterton Asia Acq,LCAA,3/11/2021,3/15/2023,286.5,33.33%,Consumer,Asia,Credit Suisse,$9.94,$9.74,$0.73,"High-growth, consumer technology across Asia"
+G&P Acq,GAPA,3/11/2021,11/15/2022,175,50.00%,Consumer,Global,BMO Capital Markets,$10.08,$9.83,$0.53,"Food, beverage, consumer goods, and hospitality"
+Archimedes Tech SPAC Partners,ATSPT,3/11/2021,9/15/2022,133,*,Technology,Global,EarlyBirdCapital,$9.98,$9.78,$0.64,"Artificial intelligence, cloud services and automotive technology"
+Pine Technology Acq,PTOC,3/11/2021,3/15/2023,345,33.33%,Financial,Global,Cantor Fitzgerald,$9.93,$9.74,$0.78,InsurTech
+Silver Spike Acq II,SPKB,3/11/2021,3/15/2023,287.5,25.00%,Cannabis,Global,Credit Suisse,$10.01,$9.79,$1.03,Cannabis
+Frontier Acq,FRON,3/11/2021,3/15/2023,230,25.00%,Healthcare,Global,Credit Suisse,$9.93,$9.76,$0.92,"Intersection of the healthcare and technology industries, specifically within the biotechnology sector"
+ESM Acq,ESM,3/10/2021,3/12/2023,306.9,33.33%,General,Global,Credit Suisse,$9.94,$9.76,$0.64,Companies that are positioned to benefit from the global transition towards a low carbon economy
+Sandbridge X2,SBII,3/10/2021,3/12/2023,238.2,33.33%,Consumer,Global,Citigroup,$10.06,$9.82,$0.73,Consumer
+Forest Road II,FRXB,3/10/2021,3/12/2023,350,20.00%,General,Global,Morgan Stanley,$9.90,$9.77,$0.87,"Technology, media, telecommunications and consumer"
+Colonnade Acq II,CLAA,3/10/2021,3/12/2023,330,20.00%,General,Global,Barclays,$9.90,$9.79,$0.76,Not specified
+Agile Growth,AGGR,3/10/2021,3/12/2023,310,33.33%,Technology,Global,Citigroup,$9.96,$9.74,$0.66,"Technology, including pure software and software-enabled businesses such as infrastructure and application software, healthcare IT, fintech, robotics/automation, and education technology"
+PWP Forward Acq Corp,FRW,3/10/2021,3/12/2023,211.6,20.00%,General,Global,Citigroup,$9.95,$9.76,$0.82,"Businesses that are founded by, led by or enrich the lives of women (“Women-Forward Companies”)"
+Digital Transformation Opp.,DTOC,3/10/2021,3/12/2023,333.5,25.00%,Healthcare,Global,Barclays,$9.86,$9.69,$0.65,Healthcare technology
+Vector Acq II,VAQC,3/10/2021,3/12/2023,450,0.00%,Technology,Global,Deutsche Bank,,$9.75,,Technology
+Independence Holdings,ACQR,3/9/2021,3/11/2023,495.9,20.00%,Technology,Global,Citigroup,$9.92,$9.77,$1.00,Financial technology
+SVF Investment 3,SVFC,3/9/2021,3/11/2023,320,0.00%,Technology,Global,Citigroup,,$9.83,,"Technology-enabled sectors including mobile communications technology, artificial intelligence, robotics, cloud technologies, software broadly, computational biology and other data-driven business models, semiconductors and other hardware, transportation technologies, consumer internet and fintech"
+SVF Investment 2,SVFB,3/9/2021,3/11/2023,230,0.00%,Technology,Global,Citigroup,,$9.82,,"Technology-enabled sectors including mobile communications technology, artificial intelligence, robotics, cloud technologies, software broadly, computational biology and other data-driven business models, semiconductors and other hardware, transportation technologies, consumer internet and fintech"
+Peridot Acq II,PDOT,3/9/2021,3/11/2023,408.5,20.00%,General,Global,UBS,$9.89,$9.75,$0.80,"Environmentally sound infrastructure, industrial applications and disruptive technologies that eliminate or mitigate GHG emissions and/or enhance resilience to climate change"
+Lerer Hippeau Acq,LHAA,3/5/2021,3/9/2023,222.7,0.00%,Technology,Global,Barclays,,$9.80,,Technology
+InterPrivate IV InfraTech,IPVI,3/5/2021,3/9/2023,287.5,20.00%,Technology,Global,Morgan Stanley,$9.82,$9.70,$0.79,TMT
+Tailwind Two Acq,TWNT,3/5/2021,3/9/2023,345,33.33%,General,Global,Jefferies,$10.05,$9.72,$0.98,High-growth technology and direct-to-consumer sector
+Tribe Capital Growth Corp,ATVC,3/5/2021,3/9/2023,276,25.00%,General,Global,Cantor Fitzgerald,$9.93,$9.69,$0.92,Not specified
+Warburg Pincus I-B,WPCB,3/5/2021,3/9/2023,548.8,20.00%,General,Global,Citigroup,$9.90,$9.82,$0.99,Not specified
+Warburg Pincus I-A,WPCA,3/5/2021,3/9/2023,250,20.00%,General,Global,Citigroup,$10.01,$9.79,$1.02,Not specified
+InterPrivate II Acq,IPVA,3/5/2021,3/9/2023,258.8,20.00%,General,Global,Morgan Stanley,$9.91,$9.68,$1.00,Not specified
+Atlantic Coastal Acq,ACAH,3/4/2021,3/8/2023,345,33.33%,Automotive,Global,BTIG,$9.90,$9.75,$0.57,Mobility
+Twin Ridge Capital Acq,TRCA,3/4/2021,3/8/2023,213.1,33.33%,Consumer,Global,Barclays,$9.90,$9.74,$0.63,Consumer or distribution
+Property Solutions II,PSAG,3/4/2021,3/8/2023,317,25.00%,Real Estate,Global,EarlyBirdCapital,$9.87,$9.75,$0.69,"Real Estate Services, PropTech"
+Altimar Acquisition III,ATAQ,3/4/2021,3/8/2023,155.3,25.00%,General,Global,Goldman Sachs,$9.90,$9.78,$1.02,"TMT, healthcare, financial services, fintech and consumer"
+RXR Acq,RXRA,3/4/2021,3/8/2023,345,20.00%,Real Estate,Global,Goldman Sachs,$9.90,$9.70,$0.76,PropTech
+FTAC Hera Acq,HERA,3/4/2021,3/8/2023,851.5,25.00%,Financial,Global,Citigroup,$9.98,$9.76,$0.99,"Financial services, real estate, insurance, ecommerce and related technology infrastructure"
+Mission Advancement,MACC,3/3/2021,3/5/2023,345,33.33%,Consumer,Global,Cantor Fitzgerald,$9.94,$9.71,$0.55,Consumer
+Advanced Merger Partners,AMPI,3/2/2021,3/4/2023,287.5,16.67%,General,Global,Goldman Sachs,$9.81,$9.74,$0.90,Not specified
+NightDragon Acq,NDAC,3/2/2021,3/4/2023,345,20.00%,Technology,Global,Morgan Stanley,$9.92,$9.76,$0.91,"Cybersecurity, safety, security, and privacy"
+DHB Capital,DHBC,3/2/2021,3/4/2023,287.5,33.33%,Financial,Global,BofA Securities,$9.86,$9.71,$0.63,Financial services
+TCW Acquisition Corp.,TSPQ,3/2/2021,3/4/2023,463.9,33.33%,General,Global,Citigroup,$9.93,$9.73,$0.65,"Technology, healthcare, industrial or consumer"
+Northern Star III,NSTC,3/2/2021,3/4/2023,400,16.67%,Consumer,US/Canada,Citigroup,$9.87,$9.73,$0.90,Direct-to-consumer and digitally-disruptive e-commerce
+Anzu Special Acquisition I,ANZU,3/2/2021,3/4/2023,425,33.33%,Industrial,Global,BofA Securities,$9.89,$9.74,$0.68,High-quality businesses with transformative technologies for industrial applications
+Live Oak Mobility Acq,LOKM,3/2/2021,3/4/2023,253,20.00%,Automotive,US/Canada,Jefferies,$9.93,$9.78,$0.93,"Mobility and motion technology, including emerging technology companies, component/material suppliers, infrastructure providers and other mobility-related services"
+DHC Acq,DHCA,3/2/2021,3/4/2023,309.5,33.33%,General,Global,Citigroup,$9.92,$9.79,$0.65,"automotive, consumer, aerospace/defense, fintech, enterprise software and E-commerce"
+Arrowroot Acq,ARRW,3/2/2021,3/4/2023,287.5,50.00%,Technology,Global,Cantor Fitzgerald,$9.98,$9.70,$0.74,Enterprise software
+Haymaker Acq III,HYAC,3/2/2021,3/4/2023,317.5,25.00%,Consumer,US/Canada,Citigroup,$9.95,$9.75,$0.83,Consumer
+FinTech Evolution,FTEV,3/2/2021,3/4/2023,274.1,33.33%,Financial,Global,UBS,$9.91,$9.74,$0.62,FinTech
+Northern Star IV,NSTD,3/2/2021,3/4/2023,400,16.67%,Consumer,US/Canada,Citigroup,$9.90,$9.77,$0.98,Direct-to-consumer and digitally-disruptive e-commerce
+Orion Acq,OHPA,3/2/2021,3/4/2023,414,25.00%,Healthcare,US/Canada,Credit Suisse,$9.83,$9.75,$0.67,Healthcare in the U.S. or other developed countries
+Ibere Pharma,IBER,2/26/2021,3/2/2023,138,50.00%,Healthcare,Global,Raymond James,$10.02,$9.68,$0.57,Healthcare
+Fusion Acquisition II,FSNB,2/26/2021,3/2/2023,500,33.33%,Financial,Global,Cantor Fitzgerald,$9.93,$9.74,$0.72,FinTech or wealth/asset management
+Twelve Seas Investment II,TWLV,2/26/2021,3/2/2023,345,33.33%,General,EEMEA,Mizuho,$9.88,$9.69,$0.80,"Companies located outside the United States, primarily in the Pan-Eurasian region, including Western Europe, Eastern Europe and the Middle East"
+Austerlitz Acquisition II,ASZ,2/26/2021,3/2/2023,"1,380.00",25.00%,General,Global,Credit Suisse,$9.98,$9.77,$1.03,Financial technology or information and business services
+Freedom Acq I,FACT,2/26/2021,3/2/2023,345,25.00%,Financial,Global,JP Morgan,$9.93,$9.77,$0.68,Financial services
+African Gold Acq,AGAC,2/26/2021,3/2/2023,414,75.00%,Materials,EEMEA,B. Riley FBR,$10.05,$9.71,$0.48,Gold mining businesses
+Warrior Technologies Acq,WARR,2/26/2021,9/2/2022,276,50.00%,General,Global,Raymond James,$10.04,$9.79,$0.58,Environmental services with a focus on ESG practices
+SilverBox Engaged I,SBEA,2/26/2021,3/2/2023,345,33.33%,General,Global,Citigroup,$9.99,$9.77,$0.60,Not specified
+USHG Acq,HUGS,2/25/2021,3/1/2023,287.5,33.33%,General,Global,Goldman Sachs,$10.01,$9.72,$0.88,"Culture-driven businesses across a range of industries, including, but not limited to, technology, e-Commerce, food and beverage, health and retail and consumer goods"
+Gores VIII,GIIX,2/25/2021,3/1/2023,345,12.50%,General,Global,Deutsche Bank,$9.96,$9.85,$1.16,"Industrials, technology, telecommunications, media and entertainment, business services, healthcare and consumer products"
+Flame Acq,FLME,2/25/2021,3/1/2023,287.5,50.00%,Energy,Global,Cowen,$10.00,$9.74,$0.66,"Energy, primarily targeting upstream exploration and production, midstream, and companies focused on new advancing technologies that are transformative and provide the potential for and means to achieve greater profitability in the broader energy sector"
+Isleworth Healthcare Acq,ISLE,2/25/2021,9/1/2022,207,50.00%,Healthcare,Global,I-Bankers Securities,,$9.82,$0.57,Healthcare
+Hudson Executive III,HIII,2/24/2021,2/26/2023,600,20.00%,Technology,Global,Citigroup,$9.93,$9.74,$0.84,"Technology-driven, disruptive companies"
+BOA Acq,BOAS,2/24/2021,2/26/2023,230,33.33%,Real Estate,Global,BTIG,$9.87,$9.70,$0.56,PropTech
+Colicity,COLI,2/24/2021,2/26/2023,345,20.00%,Technology,Global,Goldman Sachs,$9.90,$9.73,$0.77,"Technology, media and telecommunications"
+Gores VII,GSEV,2/23/2021,2/25/2023,550,12.50%,General,Global,Deutsche Bank,$9.91,$9.79,$1.13,"Industrials, technology, telecommunications, media and entertainment, business services, healthcare and consumer products"
+Arctos NorthStar Acq,ANAC,2/23/2021,2/25/2023,316.3,25.00%,Media & Entertainment,Global,Citigroup,$9.93,$9.77,$0.72,"Sports, media and entertainment"
+Slam Corp.,SLAM,2/23/2021,2/25/2023,575,25.00%,General,Global,Goldman Sachs,$9.94,$9.73,$0.82,"Sports, media, entertainment, health and wellness and consumer technology sectors, however, not professional sports franchises"
+CF Acq VI,CFVI,2/19/2021,2/23/2023,300,25.00%,General,Global,Cantor Fitzgerald,$9.88,$9.76,$0.76,"Financial services, healthcare, real estate services, technology and software"
+Alpha Capital,ASPC,2/19/2021,2/23/2023,230,50.00%,Technology,LatAm,Citigroup,$9.96,$9.75,$0.55,Technology in Latin America
+B. Riley 150,BRPM,2/19/2021,2/23/2023,172.5,33.33%,General,Global,B. Riley FBR,$9.99,$9.76,$0.80,Established businesses
+Tailwind Intl Acq,TWNI,2/19/2021,2/23/2023,345,33.33%,Technology,Europe,Jefferies,$9.88,$9.76,$0.68,"Technology and direct-to-consumer sectors in international markets, especially Europe"
+Simon Property Group Acq,SPGS,2/19/2021,2/23/2023,345,20.00%,General,Global,Goldman Sachs,$9.93,$9.76,$1.00,"Retail, entertainment, media, and real estate"
+Figure Acq I,FACA,2/19/2021,2/23/2023,287.5,25.00%,Financial,Global,Citigroup,$10.05,$9.82,$1.00,Financial technology and financial services
+Finserv II,FSRX,2/18/2021,2/22/2023,300,25.00%,Financial,Global,Citigroup,$9.88,$9.74,$0.79,FinTech and financial services
+Kismet Acquisition Two,KAII,2/18/2021,2/22/2023,230,33.33%,Technology,Europe,Citigroup,$9.88,$9.71,$0.72,"Internet and technology operating in Europe, including Russia"
+Kismet Acquisition Three,KIII,2/18/2021,2/22/2023,287.5,33.33%,Technology,Europe,Credit Suisse,$9.87,$9.72,$0.51,"Internet and technology operating in Europe, including Russia"
+Moringa Acq,MACA,2/17/2021,2/19/2023,115,50.00%,Technology,EEMEA,EarlyBirdCapital,$9.96,$9.69,$0.58,Technology in Israel
+New Vista Acq,NVSA,2/17/2021,2/19/2023,276,33.33%,Industrial,Global,Citigroup,$9.94,$9.74,$0.73,"Space, defense and communications and advanced air mobility and logistics"
+ABG Acq I,ABGI,2/17/2021,2/19/2023,150.7,0.00%,Healthcare,Global,Jefferies,,$9.72,,Healthcare
+SportsTek Acquisition,SPTK,2/17/2021,2/19/2023,172.5,50.00%,Media & Entertainment,Global,Stifel Nicolaus,$10.00,$9.76,$0.60,Sports and sports-related
+Medicus Sciences Acq,MSAC,2/16/2021,2/18/2023,92,33.33%,Healthcare,Global,Maxim,,$9.71,$0.77,Medical technology
+Tishman Speyer II,TSIB,2/12/2021,2/17/2023,300,20.00%,Real Estate,Global,BofA Securities,$9.96,$9.77,$0.84,"Real estate, including real estate adjacent businesses and proptech"
+Churchill VII,CVII,2/12/2021,2/17/2023,"1,380.00",20.00%,General,Global,Citigroup,$9.94,$9.78,$0.89,Not specified
+Tuatara Capital Acq,TCAC,2/12/2021,2/17/2023,200,50.00%,Cannabis,Global,JP Morgan,$9.95,$9.75,$0.57,Cannabis
+Rosecliff Acquisition I,RCLF,2/12/2021,2/17/2023,253,33.33%,Technology,US/Canada,BTIG,$9.98,$9.75,$0.58,High growth technology and tech-enabled US businesses in industries that are being disrupted by advances in technology and on technology paradigms
+Catcha Investment Corp,CHAA,2/12/2021,2/17/2023,300,33.33%,Technology,Asia,JP Morgan,$9.93,$9.74,$0.63,"Technology, digital media, financial technology, or digital services sectors across Asia Pacific, in particular Southeast Asia and Australia"
+Social Leverage Acq I,SLAC,2/12/2021,2/17/2023,345,25.00%,Technology,Global,Barclays,$9.91,$9.76,$0.86,"Financial technology, enterprise software or consumer technology sectors"
+Churchill VI,CCVI,2/12/2021,2/17/2023,552,20.00%,General,Global,JP Morgan,$9.96,$9.76,$1.10,Not specified
+Bite Acq,BITE,2/12/2021,2/17/2023,200,50.00%,Travel & Hospitality,US/Canada,EarlyBirdCapital,$9.99,$9.74,$0.63,Traditional and non-traditional restaurant sectors in North America
+Broadscale Acquisition,SCLE,2/12/2021,2/17/2023,345,25.00%,General,Global,Morgan Stanley,$9.94,$9.76,$0.76,"“High-yield” business models, offering solutions across platforms and marketplaces, software and analytics and services and financing"
+Goal Acquisitions Corp.,PUCK,2/11/2021,2/16/2023,258.8,100.00%,Media & Entertainment,Global,EarlyBirdCapital,$10.25,$9.75,$0.61,Sports
+ScION Tech Growth II,SCOB,2/10/2021,2/12/2023,345,33.33%,Financial,Global,Citigroup,$9.97,$9.77,$0.72,Fintech
+Lazard Growth Acq I,LGAC,2/10/2021,2/12/2023,575,20.00%,General,Global,Goldman Sachs,$9.89,$9.75,$0.85,"Growth-oriented subsectors of the healthcare, technology, energy transition, financial and consumer sectors"
+Apollo Strategic Growth II,APGB,2/10/2021,2/12/2023,690,20.00%,General,Global,Deutsche Bank,$9.90,$9.76,$0.92,Not specified
+Adara Acquisition,ADRA,2/9/2021,2/11/2023,115,50.00%,Consumer,Global,ThinkEquity,$9.96,$9.80,$0.53,Consumer products and related sectors
+Crown PropTech Acq,CPTK,2/9/2021,2/11/2023,276,33.33%,Real Estate,Global,RBC Capital Markets,$9.95,$9.80,$0.54,Businesses that provide technological innovation to the broader real estate ecosystem
+Evo Acquisition,EVOJ,2/9/2021,2/11/2023,125,50.00%,General,Global,B. Riley FBR,$9.93,$9.75,$0.51,Technology and financial
+Priveterra Acq,PMGM,2/9/2021,2/11/2023,276,33.33%,Healthcare,Global,Wells Fargo,$9.95,$9.78,$0.51,Medical technology
+Progress Acq,PGRW,2/9/2021,11/11/2022,172.5,50.00%,Media & Entertainment,Global,EarlyBirdCapital,$9.98,$9.77,$0.56,"Media, entertainment and technology"
+Pivotal Investment III,PICC,2/9/2021,2/11/2023,276,20.00%,Technology,Global,Cantor Fitzgerald,$9.87,$9.77,$0.89,Industries subject to possible disruption from evolving digital technology
+Compute Health Acq,CPUH,2/5/2021,2/9/2023,862.5,25.00%,Healthcare,Global,Goldman Sachs,$10.01,$9.79,$0.95,Computation and healthcare
+HH&L Acquisition Co.,HHLA,2/5/2021,2/9/2023,414,50.00%,Healthcare,Asia,Goldman Sachs,$9.93,$9.70,$0.51,Healthcare or healthcare-related companies in Asian markets with a focus on the Greater China market
+COVA Acq,COVA,2/5/2021,2/9/2023,300,50.00%,Technology,Asia,Cantor Fitzgerald,$9.96,$9.72,$0.62,TMT verticals in Southeast Asia
+Thunder Bridge Capital III,TBCP,2/5/2021,2/9/2023,414,20.00%,Financial,Global,Morgan Stanley,$9.90,$9.72,$0.80,"Financial services, including asset and wealth management, lending and leasing, and businesses providing financial technological services to, or operating in, the financial services industry, with an emphasis on fintech"
+Sustainable Development I,SDAC,2/5/2021,2/9/2023,316.3,50.00%,General,Global,Barclays,$10.00,$9.72,$0.64,"Water, food & agriculture or renewable energy"
+RMG III,RMGC,2/5/2021,2/9/2023,483,20.00%,General,Global,BofA Securities,$9.87,$9.77,$0.92,Not specified
+Quantum FinTech Acq,QFTA,2/5/2021,8/9/2022,201.3,50.00%,Technology,Global,Chardan,$10.04,$9.82,$0.27,"Technological services to the financial services industry, with particular emphasis on providers of data processing, industry growth technology, business-to-business access to transmission of currencies, storage and transmission services, data bases, and payment processing services"
+JOFF Fintech Acq,JOFF,2/5/2021,2/9/2023,414,33.33%,Financial,Global,RBC Capital Markets,$9.93,$9.78,$0.70,FinTech
+Itiquira Acquisition,ITQ,2/4/2021,2/8/2023,230,50.00%,General,LatAm,Citigroup,$9.98,$9.74,$0.51,"Technology, healthcare, pharma, education and consumer services in Brazil"
+Atlas Crest II,ACII,2/4/2021,2/8/2023,345,25.00%,General,Global,Cantor Fitzgerald,$9.95,$9.80,$0.85,"Media, fintech/payments, software and technology enabled services, online gaming/sports betting, healthcare and disruptive consumer"
+Gaming and Hospitality Acq,GHAC,2/3/2021,2/5/2023,200,33.33%,Travel & Hospitality,Global,Deutsche Bank,$9.97,$9.77,$0.70,Gaming and hospitality
+CC Neuberger III,PRPC,2/3/2021,2/5/2023,402.5,20.00%,General,Global,Citigroup,$9.95,$9.79,$1.05,Not specified
+Music Acquisition,TMAC,2/3/2021,2/5/2023,230,50.00%,Media & Entertainment,Global,Citigroup,$10.03,$9.75,$0.69,Music
+Kernel Group Holdings,KRNL,2/3/2021,2/5/2023,304.8,50.00%,General,Global,Citigroup,$10.03,$9.74,$0.60,"Commerce Enablement, Supply Chain, Logistics and related Technology Infrastructure"
+Noble Rock Acq,NRAC,2/2/2021,2/4/2023,241.5,33.33%,Technology,Global,Stifel Nicolaus,$9.90,$9.73,$0.62,Software and tech-enabled services
+Ares Acquisition,AAC,2/2/2021,2/4/2023,"1,000.00",20.00%,General,Global,UBS,$9.92,$9.77,$0.86,Not specified
+Jaws Mustang Acq,JWSM,2/2/2021,2/4/2023,"1,035.00",25.00%,General,Global,Credit Suisse,$10.04,$9.78,$1.24,Business in North America/Europe
+EQ Health Acq,EQHA,1/29/2021,2/2/2023,220,50.00%,Healthcare,Global,Jefferies,$10.00,$9.76,$0.55,Healthcare
+Z-Work Acquisition,ZWRK,1/29/2021,2/2/2023,230,33.33%,Technology,Global,Jefferies,$9.95,$9.75,$0.60,"Companies driven by the impact of technology on how work is executed, facilitated and enhanced"
+Brookline Capital Acq,BCAC,1/29/2021,5/2/2022,57.5,50.00%,Healthcare,US/Canada,Ladenburg Thalmann,$10.25,$9.95,$0.66,Life sciences in the US and Europe
+Mason Industrial Tech,MIT,1/29/2021,2/2/2023,500,33.33%,Industrial,Global,Citigroup,$9.93,$9.74,$0.70,"Industrial technology, advanced materials or specialty chemicals"
+Clarim Acq,CLRM,1/29/2021,2/2/2023,287.5,33.33%,Consumer,Global,Jefferies,$9.92,$9.78,$0.64,Consumer-facing e-commerce
+BlueRiver Acquisition,BLUA,1/29/2021,2/2/2023,287.5,33.33%,Media & Entertainment,Global,Goldman Sachs,$9.93,$9.75,$0.67,TMT and entertainment
+TLG Acq One,TLGA,1/28/2021,2/1/2023,400,33.33%,General,Global,RBC Capital Markets,$9.87,$9.74,$0.60,"IT, healthcare, business services, financial services, companies addressing ESG issues"
+Ignyte Acq,IGNY,1/28/2021,11/1/2022,57.5,50.00%,Healthcare,Global,EarlyBirdCapital,$10.03,$9.77,$0.59,"Life sciences, biotechnology and healthcare"
+ITHAX Acquisition Corp.,ITHX,1/28/2021,2/1/2023,241.5,50.00%,Travel & Hospitality,Global,Cantor Fitzgerald,$9.99,$9.75,$0.58,"Leisure, hospitality, travel, and related services sectors"
+Constellation Acquisition,CSTA,1/27/2021,1/29/2023,310,33.33%,General,Global,Deutsche Bank,$9.96,$9.75,$0.64,Not specified
+Fortistar Sustainable Solutions,FSSI,1/27/2021,1/29/2023,258.8,50.00%,Energy,Global,Credit Suisse,$10.08,$9.76,$0.70,Business offering sustainable solutions in the energy and infrastructure sector
+Climate Real Impact II,CLIM,1/27/2021,1/29/2023,241.5,20.00%,General,Global,Barclays,$9.96,$9.77,$1.06,Carbon avoidance and carbon removal
+LMF Acquisition Opportunities,LMAO,1/26/2021,7/28/2022,103.5,100.00%,Financial,Global,Maxim,$10.47,$10.02,$0.45,"Financial services, including fintech"
+Science Strategic Acq,SSAA,1/26/2021,1/28/2023,310.5,33.33%,Consumer,Global,Credit Suisse,$9.98,$9.79,$0.70,"Direct-to-consumer brands, direct-to-consumer-services and mobile and social entertainment"
+Hudson Executive II,HCII,1/26/2021,1/28/2023,250,25.00%,Technology,Global,Citigroup,$9.99,$9.78,$0.93,"Technology-driven, disruptive companies"
+Biotech Acquisition,BIOT,1/26/2021,1/28/2023,230,50.00%,Healthcare,Global,Cantor Fitzgerald,$10.05,$9.76,$0.65,"The healthcare industry, with a particular focus on life sciences/biotechnology, healthcare information technology, medical technology and technology-enabled healthcare services"
+DiamondHead Holdings,DHHC,1/26/2021,1/28/2023,345,25.00%,General,Global,Goldman Sachs,$9.90,$9.78,$0.64,Not specified
+D & Z Media Acq,DNZ,1/26/2021,1/28/2023,287.5,33.33%,General,Global,Goldman Sachs,$9.94,$9.73,$0.63,"Media, education technology, and other related industries"
+OEP Open Water I,OEPW,1/22/2021,1/26/2023,345,33.33%,General,Global,Credit Suisse,$9.88,$9.71,$0.60,"Technology, healthcare, and specialty industrials"
+Primavera Capital Acq,PV,1/22/2021,1/26/2023,414,50.00%,Consumer,Global,Credit Suisse,$10.11,$9.76,$0.76,Global consumer companies with a significant China presence or a compelling China potential
+Jack Creek,JCIC,1/22/2021,1/26/2023,345,50.00%,Consumer,Global,UBS,$10.02,$9.73,$0.61,Food and consumer products
+North Atlantic Acq,NAAC,1/22/2021,1/26/2023,379.5,33.33%,General,Global,Wells Fargo,$9.94,$9.73,$0.70,"Consumer, industrials and telecommunication in North America and Europe"
+SCP & CO Healthcare Acq,SHAC,1/22/2021,1/26/2023,230,50.00%,Healthcare,Global,Barclays,$10.03,$9.76,$0.62,"Healthcare, initially targeting information-driven & tech-enabled services, digital health & related infrastructure, diagnostics, and personalized care solutions"
+Liberty Media Acq,LMACA,1/22/2021,1/26/2023,575,20.00%,Media & Entertainment,Global,Citigroup,$10.37,$10.08,$1.32,"Media, digital media, music, entertainment, communications, telecommunications and technology"
+FoxWayne Enterprises Acq,FOXW,1/20/2021,7/22/2022,57.5,100.00%,Healthcare,US/Canada,EF Hutton,$10.27,$9.88,$0.46,"Biotech, telemedicine, and technology in North America, with a focus on life sciences and pharmaceutical services"
+TZP Strategies Acq,TZPS,1/20/2021,1/22/2023,287.5,33.33%,General,Global,Credit Suisse,$9.93,$9.77,$0.56,"Technology services, business services and consumer products and services"
+Oyster Enterprises Acq,OSTR,1/20/2021,1/22/2023,230,50.00%,General,Global,Imperial Capital,$10.00,$9.74,$0.53,"Media, technology, consumer products, industrials, real estate, real estate services, financial services, hospitality and entertainment"
+Class Acceleration,CLAS,1/15/2021,1/20/2023,258.8,50.00%,Technology,Global,Oppenheimer,$9.91,$9.75,$0.59,Edtech
+Authentic Equity Acq,AEAC,1/15/2021,1/20/2023,230,50.00%,Consumer,Global,Jefferies,$10.02,$9.72,$0.67,Consumer
+Edify Acquisition,EAC,1/15/2021,1/20/2023,276,50.00%,Consumer,US/Canada,BMO Capital Markets,$10.00,$9.78,$0.54,"Education, edtech, workforce development, and human capital management in the United States"
+OCA Acquisition,OCAX,1/15/2021,7/20/2022,149.5,50.00%,General,US/Canada,Stifel Nicolaus,$10.14,$9.90,$0.53,Technology-enabled business services (including healthcare and education) or financial services sectors in the US
+Group Nine Acq,GNAC,1/15/2021,1/20/2023,230,33.33%,Media & Entertainment,Global,Barclays,$9.92,$9.74,$0.64,"Digital media and adjacent industries, including the social media, e-commerce, events, and digital publishing and marketing sectors"
+26 Capital Acq,ADER,1/15/2021,1/20/2023,275,50.00%,Consumer,Global,Cantor Fitzgerald,$10.15,$9.75,$0.84,"Gaming and gaming technology, branded consumer, lodging and entertainment, and internet commerce"
+Monument Circle Acq,MON,1/14/2021,1/19/2023,250,50.00%,Media & Entertainment,Global,Cantor Fitzgerald,$10.02,$9.76,$0.61,"Media, technology, sports and entertainment"
+Deep Lake Capital Acq,DLCA,1/13/2021,1/15/2023,207,50.00%,Technology,Global,Citigroup,$10.05,$9.74,$0.73,"Fintech, ecommerce software, and data and analytics"
+Marlin Technology Corp,FINM,1/13/2021,1/15/2023,414,33.33%,Technology,Global,UBS,$10.01,$9.78,$0.80,Technology
+Hamilton Lane Alliance,HLAH,1/13/2021,1/15/2023,276,33.33%,General,Global,JP Morgan,$9.95,$9.76,$0.75,Not specified
+Fortress Capital Acq,FCAX,1/13/2021,1/15/2023,400,20.00%,Financial,Global,Citigroup,$9.90,$9.76,$0.78,Financial services
+Pontem Corporation,PNTM,1/13/2021,1/15/2023,690,33.33%,General,Global,Credit Suisse,$9.95,$9.74,$0.67,Industrial and technology
+Global Partner II,GPAC,1/12/2021,1/14/2023,300,*,Consumer,Global,UBS,$9.90,$9.80,$0.86,"Consumer, food, branded products, e-commerce and retail disruptors and consumerization of healthcare"
+Athlon Acquisition,SWET,1/12/2021,1/14/2023,276,50.00%,Healthcare,Global,Jefferies,$10.05,$9.76,$0.70,"Health, wellness and fitness"
+Adit EdTech Acq,ADEX,1/12/2021,1/14/2023,276,50.00%,Consumer,Global,EarlyBirdCapital,$9.98,$9.76,$0.50,"Education, training and education technology industries"
+Prospector Capital,PRSR,1/8/2021,1/12/2023,325,33.33%,Technology,Global,Goldman Sachs,$9.96,$9.75,$0.65,"Advanced communications, applications and services (such as 5G), cloud and edge computing, artificial intelligence, machine learning, augmented and virtual reality, disruptive transport technologies and computer vision"
+Leo Holdings II,LHC,1/8/2021,1/12/2023,375,25.00%,Consumer,Global,Deutsche Bank,$9.85,$9.75,$0.58,Consumer
+Epiphany Tech Acq,EPHY,1/8/2021,1/12/2023,402.5,33.33%,Technology,Global,Cantor Fitzgerald,$10.02,$9.78,$0.88,Technology
+Powered Brands,POW,1/8/2021,1/12/2023,276,33.33%,Consumer,Global,Credit Suisse,$9.95,$9.74,$0.61,"Beauty, wellness, and consumer"
+Tastemaker Acq,TMKR,1/8/2021,1/12/2023,276,50.00%,Consumer,Global,Stifel Nicolaus,$10.13,$9.85,$0.62,"Restaurant, hospitality and related technology"
+Empowerment and Inclusion I,EPWR,1/8/2021,1/12/2023,276,50.00%,General,Global,Jefferies,$9.99,$9.73,$0.54,Diverse-led businesses or a business focused on promoting an inclusive economy and society
+SVF Investment,SVFA,1/8/2021,1/12/2023,603.8,20.00%,Technology,Global,Citigroup,$9.98,$9.77,$1.06,Technology
+LightJump Acquisition,LJAQ,1/8/2021,7/12/2022,138,50.00%,Technology,Global,EarlyBirdCapital,$10.10,$9.82,$0.54,Technology and technology enabled businesses
+Global Synergy Acq,GSAQ,1/8/2021,7/12/2022,258.8,50.00%,Technology,Global,Credit Suisse,$10.06,$9.81,$0.60,Technology Services or IT Enabled Services
+Provident Acquisition,PAQC,1/8/2021,1/12/2023,230,50.00%,Technology,Asia,Citigroup,$9.99,$9.74,$0.56,Technology in Southeast Asia
+KL Acquisition,KLAQ,1/8/2021,1/12/2023,287.5,33.33%,Healthcare,Global,Goldman Sachs,$9.94,$9.77,$0.62,Healthcare or healthcare-related sectors
+Vickers Vantage I,VCKA,1/7/2021,1/11/2022,138,50.00%,General,Global,Maxim,$10.23,$10.01,$0.50,Not specified
+VectoIQ Acq II,VTIQ,1/7/2021,1/11/2023,345,20.00%,Automotive,Global,Cowen,$9.89,$9.71,$0.87,"Industrial technology, transportation and smart mobility"
+Bright Lights Acq,BLTS,1/7/2021,1/11/2023,230,50.00%,Media & Entertainment,Global,Jefferies,$10.09,$9.74,$0.95,"Consumer products and media, entertainment and sports"
+KludeIn I Acquisition,INKA,1/7/2021,7/11/2022,172.5,50.00%,Technology,US/Canada,BTIG,$10.07,$9.84,$0.58,Software or technology-enabled growth businesses in the United States
+Altimeter Growth 2,AGCB,1/7/2021,1/11/2023,450,0.00%,Technology,Global,Citigroup,,$9.86,,Technology
+Omega Alpha SPAC,OMEG,1/7/2021,1/11/2023,138,0.00%,Healthcare,Global,Jefferies,,$9.71,,Healthcare or healthcare-related industries
+Sports Ventures Acq,AKIC,1/6/2021,1/8/2023,230,33.33%,Media & Entertainment,Global,Deutsche Bank,$9.92,$9.72,$0.64,"Sports with a focus on teams, operators, agencies, esports and technology related businesses including those in data analytics, SaaS, ticketing and fan engagement"
+Kairos Acquisition,KAIR,1/6/2021,1/8/2023,276,50.00%,Financial,Global,Citigroup,$10.03,$9.75,$0.59,Insurance and insuretech
+Fortress Value Acq III,FVT,1/5/2021,1/7/2023,230,20.00%,General,Global,Deutsche Bank,$9.83,$9.76,$0.77,Not specified
+Benessere Capital Acq,BENE,1/5/2021,1/7/2022,115,75.00%,Technology,Global,EF Hutton,$10.65,$10.09,$0.41,"Technology-focused middle market and emerging growth companies in North, Central and South America"
+Crucible Acq,CRU,1/5/2021,1/7/2023,258.8,33.33%,Technology,Global,Credit Suisse,$10.02,$9.75,$0.86,"Software technology industry, prioritizing cloud-based recurring revenue business models"
+Ventoux CCM Acq,VTAQ,12/24/2020,3/29/2022,172.5,*,Consumer,US/Canada,Chardan,$10.31,$9.95,$0.23,"Hospitality, leisure, travel and dining in North America"
+Viveon Health Acq,VHAQ,12/23/2020,3/28/2022,201.3,*,Healthcare,US/Canada,Chardan,$10.36,$9.98,$0.22,Healthcare in North America
+CF Acq IV,CFIV,12/23/2020,12/28/2022,500,33.33%,Financial,Global,Cantor Fitzgerald,$9.98,$9.77,$0.82,"Financial services, healthcare, real estate services, technology and software"
+Healthcare Services Acq,HCAR,12/23/2020,12/28/2022,331.2,50.00%,Healthcare,US/Canada,B. Riley FBR,$10.00,$9.75,$0.65,Healthcare services and related industries in the United States
+7GC & Co. Holdings,VII,12/23/2020,12/28/2022,230,50.00%,Technology,Global,Cantor Fitzgerald,$9.96,$9.72,$0.65,Technology
+Ackrell I,ACKIT,12/21/2020,12/23/2021,138,*,Consumer,Global,EarlyBirdCapital,$10.23,$10.03,$0.48,Fast-moving consumer goods
+INSU Acquisition III,IIII,12/18/2020,12/22/2022,250,33.33%,Financial,Global,Cantor Fitzgerald,$10.05,$9.81,$0.86,Insurance or insurance related services
+Golden Falcon Acq,GFX,12/18/2020,12/22/2022,345,50.00%,Technology,Global,UBS,$10.07,$9.75,$0.59,"TMT and fintech in Europe, Israel, the Middle East or North America"
+Dune Acquisition,DUNE,12/18/2020,6/22/2022,172.5,50.00%,Technology,Global,Cantor Fitzgerald,$10.19,$9.83,$0.75,Technology and SaaS
+Corner Growth Acq,COOL,12/17/2020,12/21/2022,400,33.33%,Technology,Global,Cantor Fitzgerald,$10.02,$9.75,$0.87,Technology
+ScION Tech Growth I,SCOA,12/17/2020,12/21/2022,575,33.33%,Financial,Global,UBS,$10.00,$9.78,$0.75,Fintech
+Churchill Capital V,CCV,12/16/2020,12/18/2022,500,25.00%,General,Global,Citigroup,$10.08,$9.80,$1.20,Not specified
+KINS Technology,KINZ,12/15/2020,6/17/2022,276,50.00%,Technology,Global,UBS,$10.20,$9.97,$0.64,Transformative technology businesses
+Americas Technology Acq,ATA,12/15/2020,12/17/2021,115,50.00%,Technology,Global,EarlyBirdCapital,$10.20,$10.03,$0.48,TMT
+Delwinds Ins,DWIN,12/11/2020,6/15/2022,201.3,50.00%,Financial,Global,RBC Capital Markets,$10.13,$9.87,$0.65,Insurance
+EdtechX Holdings II,EDTX,12/11/2020,6/15/2022,115,50.00%,Consumer,Global,Jefferies,$10.24,$9.98,$0.52,"Education, training, reskilling, human capital and education technology"
+Globis Acq,GLAQ,12/11/2020,12/15/2021,115,100.00%,General,Asia,Chardan,$10.72,$10.04,$0.70,"Business that will benefit from trends toward economic globalization, particularly as it affects emerging markets."
+Senior Connect Acq I,SNRH,12/11/2020,12/15/2022,414,50.00%,Healthcare,Global,Citigroup,$10.07,$9.78,$0.73,Businesses serving the senior market or capable of being repositioned to do so
+Periphas Capital Partnering,PCPC,12/10/2020,12/14/2022,414,25.00%,General,Global,Evercore,$24.58,$24.44,$1.50,"Technology-enabled businesses, business services, industrials, and consumer"
+Carney Tech II,CTAQ,12/10/2020,12/14/2022,402.5,33.33%,Technology,Global,Morgan Stanley,$9.98,$9.77,$0.69,Technology
+Frazier Lifesciences,FLAC,12/9/2020,12/11/2022,138,33.33%,Healthcare,Global,Credit Suisse,$9.93,$9.75,$0.61,Biotechnology
+HumanCo Acquisition,HMCO,12/9/2020,12/11/2022,287.5,50.00%,Healthcare,US/Canada,Citigroup,$10.40,$9.89,$0.95,Health and wellness in the US
+Altitude Acq,ALTU,12/9/2020,6/11/2022,300,50.00%,Travel & Hospitality,Global,Cantor Fitzgerald,$10.10,$9.87,$0.63,"Travel, travel technology and travel-related businesses"
+Mudrick Capital Acq II,MUDS,12/8/2020,9/10/2022,316.3,50.00%,General,Global,Jefferies,$10.17,$9.94,$0.60,Distressed and post-restructured companies
+PropTech Investment II,PTIC,12/4/2020,12/8/2022,230,33.33%,Technology,Global,Cantor Fitzgerald,$9.94,$9.74,$0.84,PropTech
+Trepont Acquisition I,TACA,12/2/2020,6/4/2022,230,50.00%,Technology,Global,Credit Suisse,$10.23,$9.95,$0.64,"Software, communications, artificial intelligence, machine learning, data, analytics, 5G, IoT, cloud, edge, security, services and related areas"
+Tiga Acquisition,TINV,11/24/2020,11/27/2021,276,50.00%,General,Global,Credit Suisse,$10.40,$10.09,$0.61,Not specified
+Breeze Holdings Acq,BREZ,11/23/2020,11/25/2021,115,*,Energy,US/Canada,I-Bankers Securities,,$10.11,$0.47,"Assets used in exploring, developing, producing, transporting, storing, gathering, processing, fractionating, refining, distributing or marketing of natural gas, natural gas liquids, crude oil or refined products in North America"
+Cascade Acquisition,CAS,11/20/2020,5/24/2022,230,50.00%,Financial,Global,Credit Suisse,$10.20,$9.91,$0.58,Financial services
+Kingswood Global,KWAC,11/20/2020,5/24/2022,115,75.00%,Financial,Global,Oppenheimer,$10.38,$10.10,$0.49,"Financial services with a focus on differentiated financial services in the wealth management, financial advisory and investment management sectors"
+Aequi Acq,ARBG,11/20/2020,11/24/2022,230,33.33%,Technology,Global,RBC Capital Markets,$9.99,$9.79,$0.62,"Data-centric, growth-orientated consumer company in retail, education, financial technology, media & gaming, healthcare & wellness, legal, and/or procurement & eco-friendly packaging"
+Jiya Acq,JYAC,11/19/2020,11/23/2022,103.5,0.00%,Healthcare,Global,Citigroup,,$9.75,,Biopharmaceuticals
+L&F Acquisition,LNFA,11/19/2020,5/23/2022,172.5,50.00%,Technology,Global,Jefferies,$10.26,$9.99,$0.60,"Governance, risk, and compliance (“GRC”) and legal technology and software (collectively, “GRCL”)"
+Population Health,PHIC,11/18/2020,11/20/2022,172.5,33.33%,Healthcare,Global,JP Morgan,$10.00,$9.80,$0.74,Healthcare
+OTR Acquisition,OTRA,11/17/2020,5/19/2022,104.8,50.00%,General,Global,Maxim,$10.45,$10.05,$0.48,Not specified
+Zanite Acquisition,ZNTE,11/17/2020,11/19/2021,230,50.00%,Industrial,Global,BTIG,$10.51,$10.13,$0.88,"Aviation, Aerospace & Defense, Urban Mobility and Emerging Technology"
+Pine Island Acq,PIPP,11/17/2020,11/19/2022,218.4,33.33%,Industrial,Global,Citigroup,$10.06,$9.79,$0.80,"Defense, government service and aerospace businesses"
+Better World Acq,BWAC,11/13/2020,11/17/2021,126.2,100.00%,Healthcare,Global,EarlyBirdCapital,$10.61,$10.08,$0.60,Healthy living industries that benefit from strong ESG profiles in North America and Europe
+Health Assurance Acq,HAAC,11/13/2020,11/17/2022,525,25.00%,Healthcare,Global,Morgan Stanley,$10.06,$9.81,$1.00,"Technology and healthcare, including consumer-focused, data-driven, cloud-based platforms"
+Natural Order Acq,NOAC,11/11/2020,11/13/2022,230,50.00%,Food,Global,Chardan,$10.27,$9.82,$0.50,"Companies that are disrupting the animal-based protein and food industry, providing alternatives to one or more segments of the global food industry, including fresh and packaged animal-based meats, dairy and seafood"
+Edoc Acquisition,ADOC,11/10/2020,11/12/2021,90,*,Healthcare,Global,I-Bankers Securities,,$10.13,$0.23,Healthcare and healthcare providers in North America and Asia-Pacific
+Bull Horn,BHSE,10/30/2020,5/3/2022,75,50.00%,Media & Entertainment,Global,Imperial Capital,$10.18,$9.96,$0.27,"Sports, entertainment, and brands"
+CONX Corp.,CONX,10/30/2020,11/3/2022,750,25.00%,Technology,Global,Deutsche Bank,$10.14,$9.82,$1.10,"TMT, including wireless communications"
+Duddell Street Acq,DSAC,10/29/2020,11/2/2022,175,50.00%,General,Asia,BofA Securities,$10.10,$9.77,$0.67,"TMT, healthcare, fintech and consumer sectors with compelling Asian growth potential"
+Bluescape Opportunities Acq,BOAC,10/28/2020,10/30/2022,607.5,50.00%,Energy,Global,Citigroup,$10.25,$9.80,$0.94,Energy and industrial
+Mallard Acquisition,MACU,10/27/2020,4/29/2022,110,50.00%,Industrial,Global,Chardan,$10.27,$9.94,$0.30,"Value-added distribution, industrial specialty services, and differentiated manufacturing"
+Lux Health Tech Acq,LUXA,10/27/2020,10/29/2022,345,33.33%,Healthcare,Global,Credit Suisse,$10.18,$9.82,$1.20,Healthcare and technology
+Eucrates Biomedical Acq,EUCR,10/23/2020,10/27/2022,104.8,33.33%,Healthcare,US/Canada,Stifel Nicolaus,$10.06,$9.79,$0.72,Healthcare in North America and Europe
+Tekkorp Digital Acq,TEKK,10/22/2020,10/26/2022,250,50.00%,Media & Entertainment,Global,Jefferies,$10.25,$9.82,$0.86,"Digital media, sports, entertainment, leisure and/or gaming"
+BCLS Acq,BLSA,10/22/2020,10/26/2022,143.8,0.00%,Healthcare,Global,Goldman Sachs,,$9.94,,Healthcare
+H.I.G. Acquisition,HIGA,10/21/2020,10/23/2022,363.9,33.33%,General,Global,Credit Suisse,$9.97,$9.79,$0.68,Not specified
+Sarissa Capital,SRSA,10/21/2020,10/23/2022,200,33.33%,Healthcare,Global,Cantor Fitzgerald,$10.01,$9.90,$0.95,Healthcare
+DPCM Capital,XPOA,10/21/2020,10/23/2022,300,33.33%,Technology,Global,UBS,$9.95,$9.80,$0.63,Technology
+Lefteris Acquisition,LFTR,10/21/2020,10/23/2022,207.1,33.33%,Financial,Global,Morgan Stanley,$10.18,$9.77,$0.85,"Fintech, with particular emphasis on businesses that are providing or changing technology for traditional financial services, regulatory and compliance functions, insurance services, wealth and asset management and human resource and payroll functions"
+Horizon Acq II,HZON,10/20/2020,10/22/2022,525,33.33%,Technology,Global,Deutsche Bank,$10.06,$9.82,$0.96,Media and entertainment
+Bridgetown,BTWN,10/16/2020,10/20/2022,595,33.33%,General,Asia,UBS,$10.14,$9.81,$1.02,"Technology, financial services, or media in Southeast Asia"
+Turmeric Acq,TMPM,10/16/2020,10/20/2022,97.8,33.33%,Healthcare,Global,Credit Suisse,$9.94,$9.77,$0.63,Biotechnology with an emphasis on oncology and rare disease therapeutics
+5:01 Acquisition,FVAM,10/14/2020,10/16/2022,82.6,0.00%,Healthcare,US/Canada,BofA Securities,,$9.80,,Biotechnology in North America and Europe
+Social Capital VI,IPOF,10/9/2020,10/14/2022,"1,150.00",25.00%,Technology,Global,Credit Suisse,$10.61,$10.15,$1.89,Technology
+Social Capital IV,IPOD,10/9/2020,10/14/2022,460,25.00%,Technology,Global,Credit Suisse,$10.46,$10.06,$1.70,Technology
+Atlantic Avenue Acq,ASAQ,10/2/2020,10/6/2022,250,50.00%,General,Global,Cowen,$10.12,$9.81,$0.66,"TMT, healthcare, Fintech, and other business and consumer related services"
+Avanti Acquisition,AVAN,10/2/2020,10/6/2022,600,50.00%,General,Europe,Citigroup,$10.09,$9.80,$0.68,"Industries in Europe, with a strong U.S. nexus and international reach"
+Apollo Strategic Growth,APSG,10/2/2020,10/6/2022,816.8,33.33%,General,Global,Citigroup,$10.05,$9.80,$0.93,Not specified
+Vy Global Growth,VYGG,10/2/2020,10/6/2022,575,20.00%,Technology,Global,Morgan Stanley,$10.13,$9.82,$1.41,Technology
+AEA-Bridges Impact,IMPX,10/1/2020,10/5/2022,400,50.00%,General,Global,Credit Suisse,$10.10,$9.80,$0.61,ESG
+IG Acquisition,IGAC,10/1/2020,10/5/2022,300,50.00%,Media & Entertainment,Global,Cantor Fitzgerald,$10.18,$9.80,$0.80,"Leisure, gaming and hospitality"
+Recharge Acquisition,RCHG,10/1/2020,10/5/2022,200.4,50.00%,General,Global,Raymond James,$10.16,$9.90,$0.63,Not specified
+PMV Consumer Acq,PMVC,9/22/2020,9/24/2022,175,50.00%,Consumer,Global,UBS,$10.08,$9.81,$0.60,Consumer related and consumer adjacent industries
+North Mountain,NMMC,9/18/2020,9/22/2022,132.3,50.00%,Financial,Global,Citigroup,$10.05,$9.77,$0.79,FinTech
+Oaktree Acquisition II,OACB,9/17/2020,9/21/2022,250,25.00%,Industrial,Global,Deutsche Bank,$10.04,$9.83,$0.85,Industrial and consumer
+Executive Network,ENPC,9/16/2020,9/18/2022,414,25.00%,General,Global,Evercore,$9.99,$9.83,$0.86,Not specified
+Equity Distribution Acq,EQD,9/16/2020,9/18/2022,414,33.33%,Industrial,US/Canada,Credit Suisse,$10.07,$9.83,$0.82,Industrial in North America
+Ribbit LEAP,LEAP,9/11/2020,9/15/2022,402.5,20.00%,Financial,Global,JP Morgan,$10.22,$10.05,$1.40,FinTech
+Prime Impact I,PIAI,9/10/2020,9/14/2022,324.1,33.33%,Technology,Global,Goldman Sachs,$9.99,$9.80,$0.72,Data economy
+Cohn Robbins,CRHC,9/9/2020,9/11/2022,828,33.33%,General,Global,Credit Suisse,$10.11,$9.83,$0.95,Not specified
+Tailwind Acquisition,TWND,9/4/2020,9/9/2022,334.2,50.00%,Consumer,Global,Jefferies,$10.05,$9.78,$0.55,"Consumer internet, digital media and marketing technology"
+Burgundy Technology Acq,BTAQ,8/27/2020,3/2/2022,345,50.00%,Technology,Global,Mizuho,$10.22,$9.94,$0.67,Technology
+RedBall Acquisition,RBAC,8/13/2020,8/17/2022,575,33.33%,Media & Entertainment,Global,Goldman Sachs,$10.28,$9.89,$1.16,"Sports, media and data analytics sectors, with a focus on professional sports franchises"
+GO Acquisition,GOAC,8/5/2020,8/7/2022,575,33.33%,Travel & Hospitality,Global,Credit Suisse,$10.04,$9.82,$0.70,Travel-related and travel-adjacent businesses in North America and Europe
+Health Sciences Acquisitions 2,HSAQ,8/4/2020,8/6/2022,160,0.00%,Healthcare,Global,Chardan,,$9.85,,Biopharma and medical technology in North America or Europe
+E.Merge Technology Acquisition,ETAC,7/31/2020,8/4/2022,600,33.33%,Technology,Global,Cantor Fitzgerald,$9.98,$9.84,$0.69,Software and internet technology
+CC Neuberger II,PRPB,7/31/2020,8/4/2022,828,25.00%,General,Global,Credit Suisse,$10.06,$9.84,$0.99,Not specified
+Ace Convergence,ACEV,7/28/2020,1/30/2022,230,50.00%,Technology,Global,Cantor Fitzgerald,$10.20,$9.93,$0.63,IT infrastructure software and semiconductor
+Greencity Acquisition,GRCY,7/24/2020,8/28/2021,40,50.00%,General,Global,Ladenburg Thalmann,$10.38,$10.21,$0.23,Not specified
+East Resources Acquisition,ERES,7/23/2020,7/27/2022,345,50.00%,Energy,US/Canada,Wells Fargo,$10.12,$9.83,$0.59,Energy in North America
+Pershing Square Tontine,PSTH,7/22/2020,7/24/2022,"4,000.00",33.33%,General,Global,Citigroup,,$19.74,$1.27,"Private, large capitalization, high-quality, growth companies"
+HPX,HPX,7/16/2020,7/20/2022,253,50.00%,Consumer,LatAm,Credit Suisse,$10.12,$9.85,$0.58,Brazilian consumer goods and restaurants
+Malacca Straits Acquisition,MLAC,7/15/2020,1/17/2022,143.8,50.00%,General,Asia,BTIG,$10.20,$9.93,$0.37,"Southeast Asian business conglomerates in the media, food processing, renewable energy and healthcare industries"
+Brilliant Acquisition,BRLI,6/24/2020,12/25/2021,46,*,General,Asia,EarlyBirdCapital,$10.90,$10.11,$0.38,Asia-pacific region
+Yunhong,ZGYH,2/13/2020,11/18/2021,69,*,General,Asia,Maxim,$11.00,$10.26,$0.15,Asia (excluding China)
+CHP Merger,CHPM,11/22/2019,11/26/2021,300,50.00%,Healthcare,US/Canada,JP Morgan,$10.31,$10.02,$0.55,Healthcare in the United States
+Tuscan II,THCA,7/12/2019,12/31/2021,172.5,50.00%,Cannabis,Global,EarlyBirdCapital,$10.20,$10.12,$0.56,Cannabis
+AGBA Acquisition,AGBA,5/14/2019,11/16/2021,46,*,General,Asia,Maxim,$11.01,$10.89,$0.20,"Healthcare, education, entertainment and financial services in China"

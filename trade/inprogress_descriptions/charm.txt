@@ -1,0 +1,24 @@
+
+Strategy: Charm
+symbolPool: positioning, no biotech,no earnings,no materials,no energy
+positionDescription:
+    tradeType: buy
+    assetType: equity
+    positionType: single
+	Betsize:
+		1.5% per trade. 
+        Max 15%
+Open Position:
+	On	market
+	At	9:30
+	When	
+		Spy > (spy_20_day_mean - spy_sigma)
+	Symbol_filter:
+		Volume > 2M 
+		IV > 60%
+		Gamma mean,abs,(70% - 150%)) < 1%
+        Today price > 88% * charm_0 and price < charm_0
+        Yesterday price < charm_0
+Close Position:
+	On 	market
+	At	15:59

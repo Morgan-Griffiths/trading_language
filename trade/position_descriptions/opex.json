@@ -1,0 +1,46 @@
+{
+    "strategy": "opex",
+    "symbol_pool": ["positioning", "!biotech", "!earnings"],
+    "position_description": {
+        "tradeType": "SELL_SHORT",
+        "positionType": "single",
+        "assetType": "EQUITY",
+        "scheduled_close": 4,
+        "betsize": {
+            "per_trade": ["*", "@bankroll", 0.1],
+            "max": ["*", "@bankroll", 0.12]
+        },
+        "stop": ["+", "@symbol_price", ["*", "@symbol_price", 0.1]],
+        "entry_point": "MARKET"
+    },
+    "open_position": {
+        "days": ["8-4"],
+        "times": ["9:30"],
+        "when": {
+            "and": [[">", "@spy", ["-", "@spy_20_day_mean", "@spy_sigma"]]]
+        },
+        "symbol_filter": [
+            [
+                "filter_csv",
+                "stock_fundamentals",
+                "[None]",
+                "[Volume]",
+                "@symbols",
+                ">",
+                2000000
+            ],
+            ["filter_csv", "IV", "[None]", "[Imp Vol]", "@symbols", ">", 50],
+            [
+                "filter_csv",
+                "positioning",
+                "[mean]",
+                "[scaled_direction_day_0,scaled_direction_day_1,scaled_direction_day_2,scaled_direction_day_3,scaled_direction_day_4]",
+                "@symbols",
+                "<",
+                -0.0025
+            ],
+            ["filter_price", "@symbols", ">", 2]
+        ]
+    },
+    "close_position": { "days": ["8-4"], "times": ["15:59"] }
+}

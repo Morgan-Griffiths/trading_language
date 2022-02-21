@@ -1,0 +1,25 @@
+Strategy: OPEX
+symbol_pool: positioning !biotech !earnings
+position_description:
+	trade_type: sell_short
+	position_type: single
+	asset_type: equity
+	scheduled_close: 4
+	Betsize: 
+		per_trade: bankroll * 10%
+		Max_bet: bankroll * 12%
+	Stop: symbol_price + symbol_price * 10%
+	entry_point: market
+Open_Position:
+	On:	Days 10-4
+	At:	9:30
+	When:
+		spy > spy_20_day_mean - spy_sigma
+	Symbol_filter:
+		Volume > 2M and
+		IV > 50 and
+		mean(positioning(days(0 to 4))) < -0.0025 and
+		symbol_price > 2
+Close_Position:
+	On:	Days 10-4
+	At: 15:59

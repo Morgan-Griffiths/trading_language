@@ -1,0 +1,37 @@
+strategy: SPY
+symbol_pool: spy
+position_description:
+    trade_type: sell_to_open
+    asset_type: option
+    position_type: spread
+    betsize:
+        per_trade: 1% * bankroll
+        max: 1% * bankroll
+    entry_point: 2/3rds
+    scheduled_close: 4
+    spread:
+        sell:
+            strike: spy + spy * 0.3% * (days_until_opex - 3)
+            expiration: opex
+            contract_type: put
+        buy:
+            strike: round(SPY - SPY * 0.6% * (days_until_opex - 3))
+            expiration: opex
+            contract_type: put
+open_position:
+	On:	Days 32-4
+	At:	9:30
+	When:
+		spy < 1.03 * spy_20_day_mean and
+		spy > spy_20_day_mean
+	symbol_filter:
+		not in the portfolio
+	Betsize:
+		per_trade: bankroll * 10% 
+		max: bankroll * 10%
+close_position:
+	On: days 31-4
+	At: 9:30
+	When:
+		spy < spy_20_day_mean or 
+		spy > spy_20_day_mean * 1.03

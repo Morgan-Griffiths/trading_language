@@ -1,0 +1,1 @@
+{"strategy": "spy_close", "symbol_pool": ["load_symbols", "SPY"], "position_description": {"positionType": "spread", "tradeType": "BUY_TO_CLOSE", "assetType": "OPTION", "entry_point": "MARKET"}, "close_position": {"days": ["4"], "times": ["15:59"]}}

@@ -1,0 +1,35 @@
+{
+    "strategy": "spy_hedge",
+    "symbol_pool": ["load_symbols", "SPY"],
+    "position_description": {
+        "tradeType": { "if": [[["<", "^NET_POSITION", 0], "buy"]] },
+        "assetType": "EQUITY",
+        "positionType": "single",
+        "betsize": {
+            "per_trade": ["*", "^NET_POSITION", 1.25],
+            "max_bet": ["*", "^NET_POSITION", 1.25]
+        },
+        "entry_point": "MARKET"
+    },
+    "open_position": {
+        "days": ["*"],
+        "times": ["9:30"],
+        "when": {
+            "and": [
+                ["<", "^SPY", "^SPY_20_DAY_MEAN"],
+                [">", "^SPY", ["-", "^SPY_20_DAY_MEAN", "^SPY_SIGMA"]]
+            ]
+        },
+        "symbol_filter": [["in_portfolio", "@symbols", false]]
+    },
+    "close_position": {
+        "days": ["*"],
+        "times": ["9:30"],
+        "when": {
+            "or": [
+                [">", "^SPY", "^SPY_20_DAY_MEAN"],
+                ["<", "^SPY", ["-", "^SPY_20_DAY_MEAN", "^SPY_SIGMA"]]
+            ]
+        }
+    }
+}

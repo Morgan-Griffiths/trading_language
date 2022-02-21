@@ -1,0 +1,10 @@
+strategy: spy_close
+symbol_pool: spy
+position_description:
+    position_type:spread
+    trade_type:BUY_TO_CLOSE
+    asset_type:option
+    entry_point: market
+close_position:
+    on: day 4
+    at: 15:59
