@@ -1,11 +1,39 @@
-# Layout
+# Trade description grammar
 
-Trade description grammar
+## Data Model
 
-# Data Model
+Every strategy either opens or closes a position. Each position may have 1 or more trades associated with it. As in the case of an option spread.
 
-PositionId
-Trades:[]
+Each trade is stored in the following format
+"time" : 1636727441.711505,
+"date" : "2021-11-12",
+"price" : 4.55,
+"symbol" : "BBIG",
+"quantity" : 69,
+"orderId" : NumberLong("5303477251"),
+"filled" : false,
+"status" : "working",
+"positionId" : ObjectId("618e7a91aead0d8a491bd4dd"),
+"orderType" : "single",
+"tradeType" : "SELL_SHORT",
+"tradeDirection" : "OPEN",
+"strategy" : "opex",
+"positionType" : "single",
+"entry_point" : "MARKET",
+"close_date" : "2021-11-15"
+
+Each position consists of the following
+"time_created" : 1644417011.4469461,
+"date_created" : "2022-02-09",
+"date_exited" : null,
+"time_exited" : null,
+"strategy" : "spy",
+"user" : "morgan",
+"open" : true,
+"closed" : false,
+"exit_placed" : false,
+"enter_trades" : [ NumberLong("7606023526"), NumberLong("7606023526") ],
+"exit_trades" : []
 
 ## Grammar
 
@@ -14,7 +42,7 @@ global context = ^
 White space is meaningful.
 Column names containing whitespace are escaped with single quotes ''
 multiple column names are separated by commas
-
+``
 value : market attribute [CALL,PUT,MARKET,BUY_TO_OPEN] etc.
 left : [var|column|panda_expr]
 range : digit separator digit
