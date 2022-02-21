@@ -5,101 +5,102 @@
 Every strategy either opens or closes a position. Each position may have 1 or more trades associated with it. As in the case of an option spread.
 
 Each trade is stored in the following format
-"time" : 1636727441.711505,
-"date" : "2021-11-12",
-"price" : 4.55,
-"symbol" : "BBIG",
-"quantity" : 69,
-"orderId" : NumberLong("5303477251"),
-"filled" : false,
-"status" : "working",
-"positionId" : ObjectId("618e7a91aead0d8a491bd4dd"),
-"orderType" : "single",
-"tradeType" : "SELL_SHORT",
-"tradeDirection" : "OPEN",
-"strategy" : "opex",
-"positionType" : "single",
-"entry_point" : "MARKET",
-"close_date" : "2021-11-15"
+
+-   "time" : 1636727441.711505,
+-   "date" : "2021-11-12",
+-   "price" : 4.55,
+-   "symbol" : "BBIG",
+-   "quantity" : 69,
+-   "orderId" : NumberLong("5303477251"),
+-   "filled" : false,
+-   "status" : "working",
+-   "positionId" : ObjectId("618e7a91aead0d8a491bd4dd"),
+-   "orderType" : "single",
+-   "tradeType" : "SELL_SHORT",
+-   "tradeDirection" : "OPEN",
+-   "strategy" : "opex",
+-   "positionType" : "single",
+-   "entry_point" : "MARKET",
+-   "close_date" : "2021-11-15"
 
 Each position consists of the following
-"time_created" : 1644417011.4469461,
-"date_created" : "2022-02-09",
-"date_exited" : null,
-"time_exited" : null,
-"strategy" : "spy",
-"user" : "morgan",
-"open" : true,
-"closed" : false,
-"exit_placed" : false,
-"enter_trades" : [ NumberLong("7606023526"), NumberLong("7606023526") ],
-"exit_trades" : []
+
+-   "time_created" : 1644417011.4469461,
+-   "date_created" : "2022-02-09",
+-   "date_exited" : null,
+-   "time_exited" : null,
+-   "strategy" : "spy",
+-   "user" : "morgan",
+-   "open" : true,
+-   "closed" : false,
+-   "exit_placed" : false,
+-   "enter_trades" : [ NumberLong("7606023526"), NumberLong("7606023526") ],
+-   "exit_trades" : []
 
 ## Grammar
 
-local variable = @
-global context = ^
-White space is meaningful.
-Column names containing whitespace are escaped with single quotes ''
-multiple column names are separated by commas
-``
-value : market attribute [CALL,PUT,MARKET,BUY_TO_OPEN] etc.
-left : [var|column|panda_expr]
-range : digit separator digit
+-   local variable = @
+-   global context = ^
+-   White space is meaningful.
+-   Column names containing whitespace are escaped with single quotes ''
+-   multiple column names are separated by commas
+-   value : market attribute [CALL,PUT,MARKET,BUY_TO_OPEN] etc.
+-   left : [var|column|panda_expr]
+-   range : digit separator digit
 
 ### Input DSL
 
-S expressions Expr : [var,op,expr|var|value|number]
-If expr : [if expr then value [elif expr then value] else value]
-Membership : [[not] in the portfolio]
-Symbol Attribute: Price,volume etc. REAL TIME
-Historical symbol Attributes: ... (currently csv/db)
-Panda Expr : [agg(agg|column|position(days(range))) op expr|var|value|number]
-Technical analysis: function_name, args
+-   S expressions Expr : [var,op,expr|var|value|number]
+-   If expr : [if expr then value [elif expr then value] else value]
+-   Membership : [[not] in the portfolio]
+-   Symbol Attribute: Price,volume etc. REAL TIME
+-   Historical symbol Attributes: ... (currently csv/db)
+-   Panda Expr : [agg(agg|column|position(days(range))) op expr|var|value|number]
+-   Technical analysis: function_name, args
 
 ### JSON DSL
 
-lazy expr : {"lambda":expr}
-if expr : {"if:[[expr],value,[expr],value]}
-math expr : [op,left,right]
-func expr : [func,args] -> map(s_parser(args))
+-   lazy expr : {"lambda":expr}
+-   if expr : {"if:[[expr],value,[expr],value]}
+-   math expr : [op,left,right]
+-   func expr : [func,args] -> map(s_parser(args))
 
 ### Input FILTER GRAMMAR
 
-column_expr: Column op expr|var|value|number
-Membership : [not] in the portfolio
-Query : given column_expr select panda_expr | where panda_expr select column_expr
+-   column_expr: Column op expr|var|value|number
+-   Membership : [not] in the portfolio
+-   Query : given column_expr select panda_expr | where panda_expr select column_expr
 
 ### Trade Description Grammar
 
-strategy:string
-symbol_pool: [AAPL,TSLA...] | [positioning !earnings !biotech...]
-position_description:
-position_type: [single|spread] | if_expr
-trade_type: VALUE [BUY|SELL|BUY_TO_OPEN|BUY_TO_CLOSE|SELL_TO_OPEN|SELL_TO_CLOSE] | if_expr
-entry_point: VALUE [MARKET|2/3rds|MIDPOINT] | if_expr -> how to place the bid/ask
-asset_type: VALUE [OPTION|EQUITY] | if_expr
-scheduled_close?: INT [expr] -> trading days from opex
-spread?:
-buy:
-strike: INT expr
-expiration: datetime.date | var
-contract_type: [PUT|CALL]
-sell:
-""
-betsize:
-max:FLOAT expr -> maximum bankroll alloted for the strategy
-per_trade:FLOAT expr -> maximum bankroll alloted per trade
-stop?: FLOAT expr -> LAZY EVAL depends on open_position.symbol_filter typically distance from current symbol price to place stop loss
-open_position?:
-on: [days digit separator digit]|market|day digit
-at: hr:min [hr:min...]
-when:
-[expr expr...]
-symbol_filter?:
-[filter_expr filter_expr...]
-close_position?:
-""
+-   strategy:string
+-   symbol_pool: [AAPL,TSLA...] | [positioning !earnings !biotech...]
+-   position_description:
+-   position_type: [single|spread] | if_expr
+-   trade_type: VALUE [BUY|SELL|BUY_TO_OPEN|BUY_TO_CLOSE|SELL_TO_OPEN|SELL_TO_CLOSE] | if_expr
+-   entry_point: VALUE [MARKET|2/3rds|MIDPOINT] | if_expr -> how to place the bid/ask
+-   asset_type: VALUE [OPTION|EQUITY] | if_expr
+-   scheduled_close?: INT [expr] -> trading days from opex
+-   spread?:
+-   buy:
+-   strike: INT expr
+-   expiration: datetime.date | var
+-   contract_type: [PUT|CALL]
+-   sell:
+-   ""
+-   betsize:
+-   max:FLOAT expr -> maximum bankroll alloted for the strategy
+-   per_trade:FLOAT expr -> maximum bankroll alloted per trade
+-   stop?: FLOAT expr -> LAZY EVAL depends on open_position.symbol_filter typically distance from current symbol - price to place stop loss
+-   open_position?:
+-   on: [days digit separator digit]|market|day digit
+-   at: hr:min [hr:min...]
+-   when:
+-   [expr expr...]
+-   symbol_filter?:
+-   [filter_expr filter_expr...]
+-   close_position?:
+-   ""
 
 ## Compiler
 
@@ -118,9 +119,9 @@ Converts text format into json format for interpreting
 
 ## Global context
 
-portfolio -> Symbols, Balance, Buying power etc.
-real time attributes -> price lookup
-CSVs -> positioning, stock_fundamentals, iv
+-   portfolio -> Symbols, Balance, Buying power etc.
+-   real time attributes -> price lookup
+-   CSVs -> positioning, stock_fundamentals, iv
 
 symbol_pool symbols
 user set variables (just in case)
