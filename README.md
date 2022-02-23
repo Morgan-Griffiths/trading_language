@@ -23,7 +23,7 @@ Example text configs and corresponding json outputs are contained in the input_d
 -   -   -   per_trade: `FLOAT EXPR [bankroll,net_position] amount per trade`
 -   -   -   max_bet: `FLOAT EXPR [bankroll,net_position] maximum amount per position`
 -   -   stop: `OPTIONAL FLOAT EXPR [symbol_price] place a stop loss when placing the trade`
--   -   entry_point: `[market,2/3rds,midpoint] how to place the order, market hits the ask/bid, 2/3rds places - limit order in between bid/ask`
+-   -   entry_point: `[market,2/3rds,midpoint] how to place the order, market hits the ask/bid, [2/3rds,midpoint] places a limit order in between bid/ask`
 -   -   spread: `OPTIONAL. OPTION ONLY. describes an option spread.`
 -   -   -   sell: `SELL SIDE`
 -   -   -   -   strike: `INT EXPR to calculate strike price.`
