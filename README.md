@@ -1,5 +1,56 @@
 # Trade description grammar
 
+## Outline
+
+Trading DSL for writing trading config text files that can then be compiled into json format and then read by the interpreter to execute the position according to the specifications. Written in key value format using colons. Capitalization is not meaningful.
+
+The config file also specificies the time(s) and day(s) that the trade should trigger at. These are compiled by crontab and set to automatically trigger the interpreter with the given config file at the appropriate time.
+
+Each config file describes a 'Position'. Each position contains one or more trades.
+
+Example text configs and corresponding json outputs are contained in the input_descriptions and output_descriptions folders.
+
+## Trade Description Grammar
+
+strategy: `name of your strategy`
+symbol_pool: `list of symbol names` or `csv file name with optional symbol filters`
+position_description: `container for all the necessary position attributes`
+
+-   trade_type: `[sell_short,buy] for equities. [sell_to_open,buy_to_open] for options`
+-   position_type: `[single,spread] single trade per position, or spread.`
+-   asset_type: `[equity,option]`
+-   scheduled_close: `OPTIONAL. number of days before options expiration to exit position`
+-   betsize: `container for betsize logic`
+-   -   per_trade: `FLOAT EXPR [bankroll,net_position] amount per trade`
+-   -   max_bet: `FLOAT EXPR [bankroll,net_position] maximum amount per position`
+-   stop: `OPTIONAL FLOAT EXPR [symbol_price] place a stop loss when placing the trade`
+-   entry_point: `[market,2/3rds,midpoint] how to place the order, market hits the ask/bid, 2/3rds places limit order in between bid/ask`
+-   spread: `OPTIONAL. OPTION ONLY. describes an option spread.`
+-   -   sell: `SELL SIDE`
+-   -   -   strike: `INT EXPR to calculate strike price.`
+-   -   -   expiration: `EXPR to calculate expiration.`
+-   -   -   contract_type: `[put,call]`
+-   -   buy: `BUY SIDE`
+-   -   -   strike: `INT EXPR to calculate strike price.`
+-   -   -   expiration: `EXPR to calculate expiration.`
+-   -   -   contract_type: `[put,call]`
+
+open_position: `container for logic dictating when to enter the position`
+
+-   On: `DAY EXPR: [MARKET,days int-int, day int] which days to trigger config`
+-   At: `TIME EXPR: hr:min | [hr:min,hr:min] what times to trigger config`
+-   When: `contianer for triggering conditions`
+-   -   `CONDITIONAL EXPR. can have 1 or more. If more than 1 conditional exprs, join them with and`
+-   symbol_filter: `container. filters symbols based on some criteria`
+-   -   `FILTER EXPR`
+
+close_position: `container for logic dictating when to exit the position`
+
+-   On: `DAY EXPR: [MARKET,days int-int, day int] which days to trigger config`
+-   At: `TIME EXPR: hr:min | [hr:min,hr:min] what times to trigger config`
+-   When:`contianer for triggering conditions`
+-   -   `CONDITIONAL EXPR. can have 1 or more. If more than 1 conditional exprs, join them with or`
+
 ## Data Model
 
 Every strategy either opens or closes a position. Each position may have 1 or more trades associated with it. As in the case of an option spread.
@@ -39,8 +90,6 @@ Each position consists of the following
 
 ## Grammar
 
--   local variable = @
--   global context = ^
 -   White space is meaningful.
 -   Column names containing whitespace are escaped with single quotes ''
 -   multiple column names are separated by commas
@@ -53,17 +102,9 @@ Each position consists of the following
 -   S expressions Expr : [var,op,expr|var|value|number]
 -   If expr : [if expr then value [elif expr then value] else value]
 -   Membership : [[not] in the portfolio]
--   Symbol Attribute: Price,volume etc. REAL TIME
+-   Symbol Attribute: Price,volume etc. FETCHED IN REAL TIME
 -   Historical symbol Attributes: ... (currently csv/db)
 -   Panda Expr : [agg(agg|column|position(days(range))) op expr|var|value|number]
--   Technical analysis: function_name, args
-
-### JSON DSL
-
--   lazy expr : {"lambda":expr}
--   if expr : {"if:[[expr],value,[expr],value]}
--   math expr : [op,left,right]
--   func expr : [func,args] -> map(s_parser(args))
 
 ### Input FILTER GRAMMAR
 
@@ -71,53 +112,33 @@ Each position consists of the following
 -   Membership : [not] in the portfolio
 -   Query : given column_expr select panda_expr | where panda_expr select column_expr
 
-### Trade Description Grammar
-
--   strategy:string
--   symbol_pool: [AAPL,TSLA...] | [positioning !earnings !biotech...]
--   position_description:
--   position_type: [single|spread] | if_expr
--   trade_type: VALUE [BUY|SELL|BUY_TO_OPEN|BUY_TO_CLOSE|SELL_TO_OPEN|SELL_TO_CLOSE] | if_expr
--   entry_point: VALUE [MARKET|2/3rds|MIDPOINT] | if_expr -> how to place the bid/ask
--   asset_type: VALUE [OPTION|EQUITY] | if_expr
--   scheduled_close?: INT [expr] -> trading days from opex
--   spread?:
--   buy:
--   strike: INT expr
--   expiration: datetime.date | var
--   contract_type: [PUT|CALL]
--   sell:
--   ""
--   betsize:
--   max:FLOAT expr -> maximum bankroll alloted for the strategy
--   per_trade:FLOAT expr -> maximum bankroll alloted per trade
--   stop?: FLOAT expr -> LAZY EVAL depends on open_position.symbol_filter typically distance from current symbol - price to place stop loss
--   open_position?:
--   on: [days digit separator digit]|market|day digit
--   at: hr:min [hr:min...]
--   when:
--   [expr expr...]
--   symbol_filter?:
--   [filter_expr filter_expr...]
--   close_position?:
--   ""
-
 ## Compiler
 
 syntax context is understood on a single pass
-Reqs:
-All tokens and token types.
-All valid operations with tokens and sequences.
 
-Compiles nested dictionary of trade description
-Scans tokens (regex)
-Computes types on tokens
-Checks types for errors
-prepends local vars and context with @ and ^
-orders symbol_filter according to api fetching
-Converts text format into json format for interpreting
+-   Compiles nested dictionary of trade description
+-   Scans tokens (regex)
+-   Computes types on tokens
+-   Checks types for errors
+-   prepends local vars and context with @ and ^
+-   orders symbol_filter according to api fetching
+-   Converts text format into json format for interpreting
+
+### JSON DSL
+
+-   local variable = @
+-   global context = ^
+-   lazy expr : {"lambda":expr}
+-   if expr : {"if:[[expr],value,[expr],value]}
+-   math expr : [op,left,right]
+-   func expr : [func,args] -> map(s_parser(args))
 
 ## Global context
+
+global context is computed in sequence
+
+1. Market Context: state of the market at that time, time of day, opex date, distance.
+2. Trade Context: computed by the interpreter at runtime.
 
 -   portfolio -> Symbols, Balance, Buying power etc.
 -   real time attributes -> price lookup
@@ -126,15 +147,18 @@ Converts text format into json format for interpreting
 symbol_pool symbols
 user set variables (just in case)
 
-Local context:
-current symbol
+## Local context
 
-intermediate layer that fetches data and sends data for the interpreter.
-has access to the db, csvs and tda api.
-When the interpreter queries a value like SPY. it needs to return the price. This would be all the symbol tickers.
-various portfolio
-historical spy is csv lookup. which should be stored for the market duration.
-any other csv lookup should also be stored for the duration.
+during evaluation you can access the current symbol price with symbol_price. For example
+
+-   Volume > 2M and
+-   IV > 50 and
+-   mean(positioning(days(0 to 4))) < -0.0025 and
+-   symbol_price > 2 and
+-   order status rejected
+
+interpreter batch fetchs symbol attrs.
+local state when filter symbols 1 at a time, consisting of all the symbol attributes and local function vars. These are more like getters.
 
 ## Interpreter
 
@@ -153,56 +177,40 @@ to run the function. this way no preload step is required. Everything will be lo
 there will be a repository layer, that shuttles requests from the interpreter to TDA and csvs. Depending on the request,
 it will store the result in redis (spy 20 day mean for example) with high or low expiration timeout.
 
-### Global context
-
-global context is computed in sequence
-
-1. Market Context: state of the market at that time, time of day, opex date, distance.
-2. Trade Context: computed by the interpreter at runtime.
-
-### Local State
-
-batch fetch symbol attrs.
-local state when filter symbols 1 at a time, consisting of all the symbol attributes and local function vars. These are more like getters.
-
 ### Filter functions
 
-Have a forward and a backward component
-forward always returns a list of symbols
-backward returns None
-Forward filters the function normally. Each function has access to the global context of the interpreter and local symbol attributes.
-Backward is for testing purposes and modifies test CSVs (or potentially dbs) to make sure the desired outcome is satisfied.
+-   Have a forward and a backward component
+-   forward always returns a list of symbols
+-   backward returns None
+-   Forward filters the function normally. Each function has access to the global context of the interpreter and local symbol attributes.
+-   Backward is for testing purposes and modifies test CSVs (or potentially dbs) to make sure the desired outcome is satisfied.
 
-input syntax regex
-input parser function
-forward function
-backward function
+-   input syntax regex
+-   input parser function
+-   forward function
+-   backward function
 
 Data fetch
-fetch market context
-eval trade description
 
-params['spy] = tda.fetch(spy)
-params['spy'] = lambda : tda.fetch(spy)
-eval(@spy < 5)
+-   fetch market context
+-   eval trade description
+-   params['spy] = tda.fetch(spy)
+-   params['spy'] = lambda : tda.fetch(spy)
+-   eval(@spy < 5)
 
-### Extendable
+### Extendability
 
-In order for the language to be easily extendable. All filtering functions must stay apart from the interpreter.
-All interpreter state global and local is just getters and setters? with setters being optional.
-TDA stuff goes through the API which only actually calls if the value has expired.
-Local variables will be symbol names and attrs.
+Everything is built in order to be easily extendable. All filtering functions are apart from the interpreter.
+All interpreter state global and local is just getters and setters. With setters being optional.
+TDA stuff goes through the API which only calls if the value has expired.
+Local variables are symbol names and attrs.
 
 ## Websocket
 
-Realtime monitors account trades -> updates db when trade is filled.
-
-## Infrastructure
-
-DB interface.
+Realtime monitors account trades -> updates db when trade is filled or rejected.
 
 ## Testing
 
-Redis and mongodb must be running prior.
-Automated testing. Where each side of boolean expressions are tested. Where success and failure modes are tested by passing 1 symbol all the way down or not.
-Requires S expressions to be formed in a specific way with the var in the middle and any S expr on the right.
+-   Redis and mongodb must be running prior.
+-   Automated testing. Where each side of boolean expressions are tested. Where success and failure modes are tested by passing 1 symbol all the way down or not.
+-   Requires S expressions to be formed in a specific way with the var in the middle and any S expr on the right.
