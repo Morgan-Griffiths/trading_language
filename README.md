@@ -10,6 +10,15 @@ Each config file describes a 'Position'. Each position contains one or more trad
 
 Example text configs and corresponding json outputs are contained in the input_descriptions and output_descriptions folders.
 
+## Components
+
+1. Interpreter
+2. Compiler
+3. Pandas Builder -> interface that builds panda calls in strings
+4. redis interface
+5. db interface
+6. tda api
+
 ## Trade Description Grammar
 
 -   strategy: `name of your strategy`
@@ -174,24 +183,14 @@ it will store the result in redis (spy 20 day mean for example) with high or low
 
 ### Filter functions
 
--   Have a forward and a backward component
--   forward always returns a list of symbols
--   backward returns None
--   Forward filters the function normally. Each function has access to the global context of the interpreter and local symbol attributes.
--   Backward is for testing purposes and modifies test CSVs (or potentially dbs) to make sure the desired outcome is satisfied.
+each filter function consists of 4 elements -
 
--   input syntax regex
--   input parser function
--   forward function
--   backward function
+1. forward function which is what is executed when the interpreter reads that particular function during runtime.
+2. backward function which is used in the automated testing suite, which allows for automated testing of each condition.
+3. compile function that supplies the logic to turn the relevent text format into the json format
+4. Token matcher which details the token(s) which triggers the function - see symbol_filters/functions.py
 
-Data fetch
-
--   fetch market context
--   eval trade description
--   params['spy] = tda.fetch(spy)
--   params['spy'] = lambda : tda.fetch(spy)
--   eval(@spy < 5)
+all are wrapped into a function object in symbol_filters/functions.py
 
 ### Extendability
 
