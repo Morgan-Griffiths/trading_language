@@ -12,44 +12,44 @@ Example text configs and corresponding json outputs are contained in the input_d
 
 ## Trade Description Grammar
 
-strategy: `name of your strategy`
-symbol_pool: `list of symbol names` or `csv file name with optional symbol filters`
-position_description: `container for all the necessary position attributes`
+-   strategy: `name of your strategy`
+-   symbol_pool: `list of symbol names` or `csv file name with optional symbol filters`
+-   position_description: `container for all the necessary position attributes`
 
--   trade_type: `[sell_short,buy] for equities. [sell_to_open,buy_to_open] for options`
--   position_type: `[single,spread] single trade per position, or spread.`
--   asset_type: `[equity,option]`
--   scheduled_close: `OPTIONAL. number of days before options expiration to exit position`
--   betsize: `container for betsize logic`
--   -   per_trade: `FLOAT EXPR [bankroll,net_position] amount per trade`
--   -   max_bet: `FLOAT EXPR [bankroll,net_position] maximum amount per position`
--   stop: `OPTIONAL FLOAT EXPR [symbol_price] place a stop loss when placing the trade`
--   entry_point: `[market,2/3rds,midpoint] how to place the order, market hits the ask/bid, 2/3rds places limit order in between bid/ask`
--   spread: `OPTIONAL. OPTION ONLY. describes an option spread.`
--   -   sell: `SELL SIDE`
--   -   -   strike: `INT EXPR to calculate strike price.`
--   -   -   expiration: `EXPR to calculate expiration.`
--   -   -   contract_type: `[put,call]`
--   -   buy: `BUY SIDE`
--   -   -   strike: `INT EXPR to calculate strike price.`
--   -   -   expiration: `EXPR to calculate expiration.`
--   -   -   contract_type: `[put,call]`
-
-open_position: `container for logic dictating when to enter the position`
-
--   On: `DAY EXPR: [MARKET,days int-int, day int] which days to trigger config`
--   At: `TIME EXPR: hr:min | [hr:min,hr:min] what times to trigger config`
--   When: `contianer for triggering conditions`
--   -   `CONDITIONAL EXPR. can have 1 or more. If more than 1 conditional exprs, join them with and`
--   symbol_filter: `container. filters symbols based on some criteria`
--   -   `FILTER EXPR`
-
-close_position: `container for logic dictating when to exit the position`
-
--   On: `DAY EXPR: [MARKET,days int-int, day int] which days to trigger config`
--   At: `TIME EXPR: hr:min | [hr:min,hr:min] what times to trigger config`
--   When:`contianer for triggering conditions`
--   -   `CONDITIONAL EXPR. can have 1 or more. If more than 1 conditional exprs, join them with or`
+-   -   trade_type: `[sell_short,buy] for equities. [sell_to_open,buy_to_open] for options`
+-   -   position_type: `[single,spread] single trade per position, or spread.`
+-   -   asset_type: `[equity,option]`
+-   -   scheduled_close: `OPTIONAL. number of days before options expiration to exit position`
+-   -   betsize: `container for betsize logic`
+-   -   -   per_trade: `FLOAT EXPR [bankroll,net_position] amount per trade`
+-   -   -   max_bet: `FLOAT EXPR [bankroll,net_position] maximum amount per position`
+-   -   stop: `OPTIONAL FLOAT EXPR [symbol_price] place a stop loss when placing the trade`
+-   -   entry_point: `[market,2/3rds,midpoint] how to place the order, market hits the ask/bid, 2/3rds places - limit order in between bid/ask`
+-   -   spread: `OPTIONAL. OPTION ONLY. describes an option spread.`
+-   -   -   sell: `SELL SIDE`
+-   -   -   -   strike: `INT EXPR to calculate strike price.`
+-   -   -   -   expiration: `EXPR to calculate expiration.`
+-   -   -   -   contract_type: `[put,call]`
+-   -   -   buy: `BUY SIDE`
+-   -   -   -   strike: `INT EXPR to calculate strike price.`
+-   -   -   -   expiration: `EXPR to calculate expiration.`
+-   -   -   -   contract_type: `[put,call]`
+-
+-   open_position: `container for logic dictating when to enter the position`
+-
+-   -   On: `DAY EXPR: [MARKET,days int-int, day int] which days to trigger config`
+-   -   At: `TIME EXPR: hr:min | [hr:min,hr:min] what times to trigger config`
+-   -   When: `contianer for triggering conditions`
+-   -   -   `CONDITIONAL EXPR. can have 1 or more. If more than 1 conditional exprs, join them with and`
+-   -   symbol_filter: `container. filters symbols based on some criteria`
+-   -   -   `FILTER EXPR`
+-
+-   close_position: `container for logic dictating when to exit the position`
+-
+-   -   On: `DAY EXPR: [MARKET,days int-int, day int] which days to trigger config`
+-   -   At: `TIME EXPR: hr:min | [hr:min,hr:min] what times to trigger config`
+-   -   When:`contianer for triggering conditions`
+-   -   -   `CONDITIONAL EXPR. can have 1 or more. If more than 1 conditional exprs, join them with or`
 
 ## Data Model
 
@@ -106,7 +106,7 @@ Each position consists of the following
 -   Historical symbol Attributes: ... (currently csv/db)
 -   Panda Expr : [agg(agg|column|position(days(range))) op expr|var|value|number]
 
-### Input FILTER GRAMMAR
+### Input filter grammar
 
 -   column_expr: Column op expr|var|value|number
 -   Membership : [not] in the portfolio
@@ -140,12 +140,12 @@ global context is computed in sequence
 1. Market Context: state of the market at that time, time of day, opex date, distance.
 2. Trade Context: computed by the interpreter at runtime.
 
+4 types of global context
+
 -   portfolio -> Symbols, Balance, Buying power etc.
 -   real time attributes -> price lookup
 -   CSVs -> positioning, stock_fundamentals, iv
-
-symbol_pool symbols
-user set variables (just in case)
+-   user set variables (just in case)
 
 ## Local context
 
