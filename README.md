@@ -44,14 +44,14 @@ Example text configs and corresponding json outputs are contained in the input_d
 -   -   -   -   contract_type: `[put,call]`
 -   open_position: `container for logic dictating when to enter the position`
 -   -   On: `DAY EXPR: [MARKET,days int-int, day int] which days to trigger config`
--   -   At: `TIME EXPR: hr:min | [hr:min,hr:min] what times to trigger config`
+-   -   At: `TIME EXPR: ALL TIMES EST. hr:min | [hr:min,hr:min] what times to trigger config`
 -   -   When: `contianer for triggering conditions`
 -   -   -   `CONDITIONAL EXPR. can have 1 or more. If more than 1 conditional exprs, join them with and`
 -   -   symbol_filter: `container. filters symbols based on some criteria`
 -   -   -   `FILTER EXPR`
 -   close_position: `container for logic dictating when to exit the position`
 -   -   On: `DAY EXPR: [MARKET,days int-int, day int] which days to trigger config`
--   -   At: `TIME EXPR: hr:min | [hr:min,hr:min] what times to trigger config`
+-   -   At: `TIME EXPR: ALL TIMES EST. hr:min | [hr:min,hr:min] what time(s) to trigger config`
 -   -   When:`contianer for triggering conditions`
 -   -   -   `CONDITIONAL EXPR. can have 1 or more. If more than 1 conditional exprs, join them with or`
 
